@@ -1,0 +1,23 @@
+---
+title: "Contato"
+description: "Entre em contato com a equipe do Enhanced"
+page-navigation: true
+toc: false
+---
+
+<script>document.body.dataset.i18nPageTitle='page-contato-title';document.body.dataset.i18nPageDesc='page-contato-desc';</script>
+
+## <span data-i18n="contato-email">E-mail</span>
+
+[enhanced@inovahd.org](mailto:enhanced@inovahd.org)
+
+## <span data-i18n="contato-address">Endereço</span>
+
+<span data-i18n="contato-address-text">LabHD UFBA — Av. Milton Santos, Ondina, PAF-V, sala 305a, Salvador/BA, CEP 40170-110</span>
+
+## <span data-i18n="contato-social">Redes Sociais</span>
+
+- [X/Twitter](https://x.com/labhdufba)
+- [Instagram](https://instagram.com/labhdufba)
+- [GitHub](https://github.com/labhdufba)
+- [Telegram](https://t.me/labhdufba)

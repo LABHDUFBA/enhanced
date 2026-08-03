@@ -1,0 +1,11 @@
+---
+title: "Apresentação"
+description: "Sobre o Enhanced"
+page-navigation: true
+toc: true
+---
+
+<script>document.body.dataset.i18nPageTitle='page-sobre-title';document.body.dataset.i18nPageDesc='page-sobre-desc';</script>
+
+::: {data-i18n-html="sobre-text"}
+:::

@@ -1,0 +1,29 @@
+{
+  "edicoes.qmd": {
+    "edicoes.html": "1bb8a33e"
+  },
+  "index.qmd": {
+    "index.html": "c96cb781"
+  },
+  "posts/example-essay/index.qmd": {
+    "index.html": "f1b7f905"
+  },
+  "posts/example-essay-en/index.qmd": {
+    "index.html": "2ca01bc8"
+  },
+  "contato.qmd": {
+    "contato.html": "dee03b12"
+  },
+  "sobre.qmd": {
+    "sobre.html": "4f4f5255"
+  },
+  "textos.qmd": {
+    "textos.html": "8f922e63"
+  },
+  "normas.qmd": {
+    "normas.html": "cae128af"
+  },
+  "corpo-editorial.qmd": {
+    "corpo-editorial.html": "46264796"
+  }
+}

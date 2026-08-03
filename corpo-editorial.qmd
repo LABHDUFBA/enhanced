@@ -1,0 +1,137 @@
+---
+title: "Corpo Editorial"
+description: "Equipe editorial do Enhanced"
+page-navigation: true
+toc: false
+---
+
+<script>document.body.dataset.i18nPageTitle='page-editorial-title';document.body.dataset.i18nPageDesc='page-editorial-desc';</script>
+
+<p data-i18n="editorial-intro">O corpo editorial do Enhanced é responsável pela curadoria, revisão e aprovação dos textos publicados. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado.</p>
+
+## <span data-i18n="editor-executive">Editor Executivo</span>
+
+::: {.editor-card}
+::: {.editor-avatar}
+RS
+:::
+::: {.editor-info}
+::: {.editor-name}
+Ricardo Sodré Andrade
+:::
+::: {.editor-role}
+Editor Executivo
+:::
+::: {.editor-affiliation}
+LabHD UFBA / Arquivo Nacional (ERE-NE)
+:::
+:::
+:::
+
+## <span data-i18n="editor-associate">Editores Associados</span>
+
+::: {.editor-card}
+::: {.editor-avatar}
+LN
+:::
+::: {.editor-info}
+::: {.editor-name}
+Leonardo Nascimento
+:::
+::: {.editor-role}
+Editor Associado
+:::
+::: {.editor-affiliation}
+LabHD UFBA
+:::
+:::
+:::
+
+::: {.editor-card}
+::: {.editor-avatar}
+EB
+:::
+::: {.editor-info}
+::: {.editor-name}
+Eric Brasil
+:::
+::: {.editor-role}
+Editor Associado
+:::
+::: {.editor-affiliation}
+LabHD UFBA
+:::
+:::
+:::
+
+## <span data-i18n="editor-board">Corpo Editorial</span>
+
+::: {.editor-card}
+::: {.editor-avatar}
+R
+:::
+::: {.editor-info}
+::: {.editor-name}
+Rosana
+:::
+::: {.editor-role}
+Corpo Editorial
+:::
+::: {.editor-affiliation}
+LabHD UFBA
+:::
+:::
+:::
+
+::: {.editor-card}
+::: {.editor-avatar}
+B
+:::
+::: {.editor-info}
+::: {.editor-name}
+Bruno
+:::
+::: {.editor-role}
+Corpo Editorial
+:::
+::: {.editor-affiliation}
+LabHD UFBA
+:::
+:::
+:::
+
+::: {.editor-card}
+::: {.editor-avatar}
+T
+:::
+::: {.editor-info}
+::: {.editor-name}
+Tarssio
+:::
+::: {.editor-role}
+Corpo Editorial
+:::
+::: {.editor-affiliation}
+LabHD UFBA
+:::
+:::
+:::
+
+::: {.editor-card}
+::: {.editor-avatar}
+LC
+:::
+::: {.editor-info}
+::: {.editor-name}
+Letícia Cesar
+:::
+::: {.editor-role}
+Corpo Editorial
+:::
+::: {.editor-affiliation}
+LabHD UFBA
+:::
+:::
+:::
+
+**País de publicação:** Brasil

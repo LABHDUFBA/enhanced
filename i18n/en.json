@@ -1,0 +1,59 @@
+{
+  "html": "en",
+  "nav-subtitle": "Digital Humanities & AI",
+  "nav-about": "About",
+  "nav-edicoes": "Issues",
+  "nav-textos": "Articles",
+  "nav-about-sub-sobre": "About",
+  "nav-about-sub-editorial": "Editorial Board",
+  "nav-about-sub-normas": "Submission Guidelines",
+  "nav-about-sub-contato": "Contact",
+  "footer-built": "Built with",
+
+  "hero-title": "Enhanced",
+  "hero-subtitle": "Digital Humanities and Artificial Intelligence",
+  "hero-description": "A blog by LabHD UFBA. Essays, reflections, and experiments at the frontier of humanities and AI.",
+
+  "sec-latest": "Latest Articles",
+  "sec-all-posts": "All articles",
+  "sec-read-more": "Read more",
+
+  "page-sobre-title": "About",
+  "page-sobre-desc": "About Enhanced, the LabHD UFBA blog",
+  "sobre-text": "<p><strong>Enhanced</strong> is the blog of <a href=\"https://labhd.ufba.br\">LabHD UFBA</a> (Digital Humanities Laboratory at UFBA). We publish essays, reflections, and experiments at the frontier of digital humanities and artificial intelligence.</p><p>Our goal is to create a high-quality editorial space, with texts between the blog post and the academic essay, accessible to a broad audience yet rigorous. The blog is a serial publication of LabHD, linked to InovaHD (the laboratory's association).</p><p>LabHD UFBA was founded in 2018, associated with the PPGCS and ICTI/UFBA, and registered in CNPq's Directory of Research Groups. Its research lines include digital humanities, disinformation, computational archival science, digital history, and the ethical implications of digital technoscience.</p>",
+
+  "page-editorial-title": "Editorial Board",
+  "page-editorial-desc": "Editorial team of Enhanced",
+  "editorial-intro": "The editorial board of Enhanced is responsible for curation, review, and approval of published texts. Each text requires 3 approvals from the editorial board to be published.",
+  "editor-executive": "Executive Editor",
+  "editor-associate": "Associate Editor",
+  "editor-board": "Editorial Board",
+
+  "page-normas-title": "Submission Guidelines",
+  "page-normas-desc": "Guidelines for authors",
+  "normas-intro": "Enhanced accepts submissions of texts between 500 and 4000 words, in Portuguese or English, on topics related to digital humanities, artificial intelligence, agents, disinformation, computational archival science, and related themes.",
+  "normas-format": "Format",
+  "normas-format-text": "Texts in markdown, between 500 and 4000 words. Include title, abstract up to 150 characters, and author name with institutional affiliation.",
+  "normas-process": "Editorial Process",
+  "normas-process-text": "After submission, the text is distributed to the editorial board. Each editor reviews and approves or suggests revisions. With 3 approvals, the text is automatically published.",
+  "normas-languages": "Languages",
+  "normas-languages-text": "Texts are published in Portuguese and English. The author may write in either language; the version in the other language is generated and reviewed by the author before publication.",
+
+  "page-contato-title": "Contact",
+  "page-contato-desc": "Get in touch with the Enhanced team",
+  "contato-email": "Email",
+  "contato-address": "Address",
+  "contato-address-text": "LabHD UFBA — Av. Milton Santos, Ondina, PAF-V, room 305a, Salvador/BA, Brazil, CEP 40170-110",
+  "contato-social": "Social Media",
+
+  "page-edicoes-title": "Issues",
+  "page-edicoes-desc": "All issues of Enhanced",
+  "edicoes-intro": "Enhanced publishes on a rolling basis, grouped by volume/issue. See all issues below.",
+
+  "page-textos-title": "Articles",
+  "page-textos-desc": "All articles published in Enhanced",
+
+  "author-by": "by",
+  "published-on": "Published on",
+  "edition-label": "Issue"
+}

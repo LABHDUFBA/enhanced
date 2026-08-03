@@ -1,0 +1,22 @@
+---
+title: "Normas para Publicação"
+description: "Diretrizes para autores"
+page-navigation: true
+toc: true
+---
+
+<script>document.body.dataset.i18nPageTitle='page-normas-title';document.body.dataset.i18nPageDesc='page-normas-desc';</script>
+
+<p data-i18n="normas-intro">O Enhanced aceita submissões de textos entre 500 e 4000 palavras, em português ou inglês, sobre temas relacionados a humanidades digitais, inteligência artificial, agentes, desinformação, arquivologia computacional e temas afins.</p>
+
+## <span data-i18n="normas-format">Formato</span>
+
+<p data-i18n="normas-format-text">Textos em markdown, entre 500 e 4000 palavras. Incluir título, resumo de até 150 caracteres e nome do autor com filiação institucional.</p>
+
+## <span data-i18n="normas-process">Processo Editorial</span>
+
+<p data-i18n="normas-process-text">Após submissão, o texto é distribuído ao corpo editorial. Cada editor revisa e aprova ou sugere revisões. Com 3 aprovações, o texto é publicado automaticamente.</p>
+
+## <span data-i18n="normas-languages">Idiomas</span>
+
+<p data-i18n="normas-languages-text">Os textos são publicados em português e inglês. O autor pode escrever em qualquer um dos idiomas; a versão no outro idioma é gerada e revisada pelo autor antes da publicação.</p>

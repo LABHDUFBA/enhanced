@@ -1,0 +1,22 @@
+---
+title: "Textos"
+description: "Todos os textos publicados no Enhanced"
+page-navigation: true
+toc: false
+
+listing:
+  - id: all-posts
+    contents:
+      - posts
+    type: grid
+    fields: [image, date, title, author, description]
+    max-description-length: 150
+    sort:
+      - "date desc"
+      - "title asc"
+---
+
+<script>document.body.dataset.i18nPageTitle='page-textos-title';document.body.dataset.i18nPageDesc='page-textos-desc';</script>
+
+::: {#all-posts}
+:::

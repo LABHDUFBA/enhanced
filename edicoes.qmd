@@ -1,0 +1,18 @@
+---
+title: "Edições"
+description: "Todas as edições do Enhanced"
+page-navigation: true
+toc: false
+---
+
+<script>document.body.dataset.i18nPageTitle='page-edicoes-title';document.body.dataset.i18nPageDesc='page-edicoes-desc';</script>
+
+<p data-i18n="edicoes-intro">O Enhanced publica em fluxo contínuo, agrupado por volume/número. Veja abaixo todas as edições.</p>
+
+## Vol. 1, N. 1 (ago/2026)
+
+::: {.edition-badge}
+Vol. 1, N. 1
+:::
+
+Em breve.

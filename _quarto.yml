@@ -1,0 +1,87 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - i18n/*.json
+    - i18n/*.js
+    - i18n/*.css
+    - files/docs/*
+
+# Meta
+description-meta: "Enhanced — Digital Humanities and Artificial Intelligence. Blog do LabHD UFBA."
+author-meta: "LabHD UFBA"
+
+website:
+  title: "Enhanced"
+  image: "files/images/logo.png"
+  description: "Digital Humanities and Artificial Intelligence — LabHD UFBA"
+
+  navbar:
+    background: dark
+
+    left:
+      - text: Sobre
+        menu:
+          - text: Apresentação
+            href: sobre.qmd
+          - text: Corpo Editorial
+            href: corpo-editorial.qmd
+          - text: Normas
+            href: normas.qmd
+          - text: Contato
+            href: contato.qmd
+      - text: Edições
+        href: edicoes.qmd
+      - text: Textos
+        href: textos.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/labhdufba
+        target: _blank
+      - icon: twitter
+        href: https://x.com/labhdufba
+        target: _blank
+      - icon: instagram
+        href: https://instagram.com/labhdufba
+        target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  page-navigation: true
+
+  page-footer:
+    left: "Enhanced &copy; <script>document.write(new Date().getFullYear())</script> · LabHD UFBA"
+    center: "Construído com [Quarto](https://quarto.org)"
+    right:
+      - icon: github
+        href: https://github.com/labhdufba
+        target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  search:
+    location: navbar
+    type: textbox
+
+  draft-mode: unlinked
+
+  open-graph: true
+
+  twitter-card: true
+
+  site-url: "https://enhanced.inovahd.org"
+  favicon: "files/images/favicon.svg"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    footnotes-hover: true
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    lang: pt-BR
+    include-in-header: "files/includes/_i18n.html"
