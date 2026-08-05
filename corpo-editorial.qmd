@@ -9,26 +9,7 @@ toc: false
 
 <p data-i18n="editorial-intro">O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado.</p>
 
-## <span data-i18n="editor-executive">Editor Executivo</span>
-
-::: {.editor-card}
-::: {.editor-avatar}
-RS
-:::
-::: {.editor-info}
-::: {.editor-name}
-Ricardo Sodré Andrade
-:::
-::: {.editor-role}
-Editor Executivo
-:::
-::: {.editor-affiliation}
-LABHDUFBA / Arquivo Nacional (ERE-NE)
-:::
-:::
-:::
-
-## <span data-i18n="editor-associate">Editores Associados</span>
+## <span data-i18n="editor-board">Corpo Editorial</span>
 
 ::: {.editor-card}
 ::: {.editor-avatar}
@@ -39,10 +20,7 @@ LN
 Leonardo Nascimento
 :::
 ::: {.editor-role}
-Editor Associado
-:::
-::: {.editor-affiliation}
-LABHDUFBA
+<span data-i18n="role-coordinator">Coordenador do LABHDUFBA</span>
 :::
 :::
 :::
@@ -56,15 +34,24 @@ EB
 Eric Brasil
 :::
 ::: {.editor-role}
-Editor Associado
-:::
-::: {.editor-affiliation}
-LABHDUFBA
+<span data-i18n="role-vice">Vice-coordenador do LABHDUFBA</span>
 :::
 :::
 :::
 
-## <span data-i18n="editor-board">Corpo Editorial</span>
+::: {.editor-card}
+::: {.editor-avatar}
+RS
+:::
+::: {.editor-info}
+::: {.editor-name}
+Ricardo Sodré Andrade
+:::
+::: {.editor-role}
+<span data-i18n="role-member">Membro do LABHDUFBA</span>
+:::
+:::
+:::
 
 ::: {.editor-card}
 ::: {.editor-avatar}
@@ -75,27 +62,21 @@ R
 Rosana
 :::
 ::: {.editor-role}
-Corpo Editorial
-:::
-::: {.editor-affiliation}
-LABHDUFBA
+<span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
 :::
 :::
 
 ::: {.editor-card}
 ::: {.editor-avatar}
-B
+BD
 :::
 ::: {.editor-info}
 ::: {.editor-name}
-Bruno
+Bruno José Durães
 :::
 ::: {.editor-role}
-Corpo Editorial
-:::
-::: {.editor-affiliation}
-LABHDUFBA
+<span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
 :::
 :::
@@ -106,13 +87,10 @@ T
 :::
 ::: {.editor-info}
 ::: {.editor-name}
-Tarssio
+Tarssio Barreto
 :::
 ::: {.editor-role}
-Corpo Editorial
-:::
-::: {.editor-affiliation}
-LABHDUFBA
+<span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
 :::
 :::
@@ -126,10 +104,7 @@ LC
 Letícia Cesar
 :::
 ::: {.editor-role}
-Corpo Editorial
-:::
-::: {.editor-affiliation}
-LABHDUFBA
+<span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
 :::
 :::

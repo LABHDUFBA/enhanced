@@ -25,9 +25,10 @@
   "page-editorial-title": "Corpo Editorial",
   "page-editorial-desc": "Equipe editorial do Enhanced",
   "editorial-intro": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado.",
-  "editor-executive": "Editor Executivo",
-  "editor-associate": "Editor Associado",
   "editor-board": "Corpo Editorial",
+  "role-coordinator": "Coordenador do LABHDUFBA",
+  "role-vice": "Vice-coordenador do LABHDUFBA",
+  "role-member": "Membro do LABHDUFBA",
 
   "page-normas-title": "Normas para Publicação",
   "page-normas-desc": "Diretrizes para autores",

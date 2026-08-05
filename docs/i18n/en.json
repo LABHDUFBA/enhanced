@@ -25,9 +25,10 @@
   "page-editorial-title": "Editorial Board",
   "page-editorial-desc": "Editorial team of Enhanced",
   "editorial-intro": "The editorial board of Enhanced is responsible for curation and approval of published texts. Proofreading and revision are the authors' responsibility. Each text requires 3 approvals from the editorial board to be published.",
-  "editor-executive": "Executive Editor",
-  "editor-associate": "Associate Editor",
   "editor-board": "Editorial Board",
+  "role-coordinator": "LABHDUFBA Coordinator",
+  "role-vice": "LABHDUFBA Vice-coordinator",
+  "role-member": "LABHDUFBA Member",
 
   "page-normas-title": "Submission Guidelines",
   "page-normas-desc": "Guidelines for authors",
