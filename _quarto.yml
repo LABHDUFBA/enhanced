@@ -46,9 +46,6 @@ website:
       - icon: instagram
         href: https://instagram.com/labhdufba
         target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank
 
   page-navigation: true
 
@@ -58,9 +55,6 @@ website:
     right:
       - icon: github
         href: https://github.com/labhdufba
-        target: _blank
-      - icon: rss
-        href: posts.xml
         target: _blank
 
   search:
