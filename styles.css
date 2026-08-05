@@ -286,42 +286,38 @@ a:hover {
   font-weight: 800 !important;
   box-shadow: 0 0 0 2px rgba(255,255,255,0.15) !important;
 }
-/* Keep language selector attached to the Enhanced title */
-.navbar-brand-container {
+/* Keep the selector compact with the right-side controls */
+.lang-selector-item {
   display: flex !important;
   align-items: center !important;
-  gap: 0.65rem !important;
-  flex-wrap: nowrap !important;
-}
-.navbar-brand-container #lang-selector {
-  order: initial !important;
-  margin: 0 !important;
 }
 
-/* When inside navbar-collapse (mobile), make buttons full-width */
 @media (max-width: 991.98px) {
   .lang-selector {
-    order: 998 !important;
-  }
-  #quarto-search {
-    order: 999 !important;
-  }
-  .lang-selector { padding: 0.5rem 0 !important; gap: 0.4rem !important; justify-content: center !important; width: 100% !important; border-top: 1px solid rgba(255,255,255,0.1); margin-right: 0 !important; }
-  .lang-selector .lang-btn { padding: 0.4rem 0.8rem !important; font-size: 0.9rem !important; min-width: 3rem !important; }
-  .navbar-brand-container #lang-selector {
+    order: initial !important;
     width: auto !important;
     padding: 0 !important;
-    border-top: 0 !important;
     margin: 0 !important;
+    border-top: 0 !important;
     gap: 0.25rem !important;
   }
-  .navbar-brand-container #lang-selector .lang-btn {
+  .lang-selector .lang-btn {
     padding: 0.2rem 0.5rem !important;
     font-size: 0.72rem !important;
     min-width: 2rem !important;
   }
-  .navbar-collapse .navbar-nav.ms-auto { display: flex !important; flex-direction: row !important; gap: 0.25rem !important; justify-content: center !important; width: 100% !important; }
-  .navbar-collapse .navbar-nav.ms-auto .nav-item.compact { margin: 0 !important; padding: 0 !important; }
+  .navbar-collapse .navbar-nav.ms-auto {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.25rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  .navbar-collapse .navbar-nav.ms-auto .nav-item.compact {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 
 /* Article language switch */

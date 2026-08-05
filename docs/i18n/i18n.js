@@ -187,8 +187,8 @@
     const labels = {pt:'PT', en:'EN'};
     const full   = {pt:'Português', en:'English'};
 
-    // Place the selector in the brand/title area, not on a separate navbar row
-    const brandContainer = document.querySelector('.navbar-brand-container');
+    // Place the selector with the right-side navbar controls
+    const rightNav = document.querySelector('.navbar-nav.ms-auto');
     const searchIcon = document.getElementById('quarto-search');
 
     const wrap = document.createElement('div');
@@ -206,8 +206,11 @@
       wrap.appendChild(btn);
     });
 
-    if (brandContainer) {
-      brandContainer.appendChild(wrap);
+    if (rightNav) {
+      const item = document.createElement('li');
+      item.className = 'nav-item compact lang-selector-item';
+      item.appendChild(wrap);
+      rightNav.appendChild(item);
     } else if (searchIcon && searchIcon.parentNode) {
       searchIcon.parentNode.insertBefore(wrap, searchIcon);
     } else {
