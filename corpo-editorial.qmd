@@ -17,10 +17,13 @@ LN
 :::
 ::: {.editor-info}
 ::: {.editor-name}
-Leonardo Nascimento
+Leonardo F. Nascimento
 :::
 ::: {.editor-role}
 <span data-i18n="role-coordinator">Coordenador do LABHDUFBA</span>
+:::
+::: {.editor-affiliation}
+<span data-i18n="aff-leonardo">Doutor em Sociologia · PPGCS/UFBA</span>
 :::
 :::
 :::
@@ -36,6 +39,9 @@ Eric Brasil
 ::: {.editor-role}
 <span data-i18n="role-vice">Vice-coordenador do LABHDUFBA</span>
 :::
+::: {.editor-affiliation}
+<span data-i18n="aff-eric">Professor da UNILAB (IHLM) · Doutor em História (UFF)</span>
+:::
 :::
 :::
 
@@ -50,6 +56,9 @@ Ricardo Sodré Andrade
 ::: {.editor-role}
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
+::: {.editor-affiliation}
+<span data-i18n="aff-ricardo">Chefe do ERE-NE do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA)</span>
+:::
 :::
 :::
 
@@ -59,10 +68,13 @@ R
 :::
 ::: {.editor-info}
 ::: {.editor-name}
-Rosana
+Rosana Moore
 :::
 ::: {.editor-role}
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
+:::
+::: {.editor-affiliation}
+<span data-i18n="aff-rosana">Doutora em Sociologia (IESP/UERJ)</span>
 :::
 :::
 :::
@@ -73,10 +85,13 @@ BD
 :::
 ::: {.editor-info}
 ::: {.editor-name}
-Bruno José Durães
+Bruno Durães
 :::
 ::: {.editor-role}
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
+:::
+::: {.editor-affiliation}
+<span data-i18n="aff-bruno">Professor Associado de Sociologia na UFRJ · Coordenador do LABHD/UFRJ · Doutor em Ciências Sociais (Unicamp)</span>
 :::
 :::
 :::
@@ -92,6 +107,9 @@ Tarssio Barreto
 ::: {.editor-role}
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
+::: {.editor-affiliation}
+<span data-i18n="aff-tarssio">Mestre em Ambiente, Água e Saneamento · BIT Analytics</span>
+:::
 :::
 :::
 
@@ -101,12 +119,15 @@ LC
 :::
 ::: {.editor-info}
 ::: {.editor-name}
-Letícia Cesar
+Letícia Cesarino
 :::
 ::: {.editor-role}
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
+::: {.editor-affiliation}
+<span data-i18n="aff-leticia">Professora da UFSC · Doutora em Antropologia (UC Berkeley)</span>
+:::
 :::
 :::
 
-**País de publicação:** Brasil
+**<span data-i18n="country-pub">País de publicação:</span>** Brasil
