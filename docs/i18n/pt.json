@@ -24,7 +24,7 @@
 
   "page-editorial-title": "Corpo Editorial",
   "page-editorial-desc": "Equipe editorial do Enhanced",
-  "editorial-intro": "O corpo editorial do Enhanced é responsável pela curadoria, revisão e aprovação dos textos publicados. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado.",
+  "editorial-intro": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado.",
   "editor-executive": "Editor Executivo",
   "editor-associate": "Editor Associado",
   "editor-board": "Corpo Editorial",
@@ -35,7 +35,7 @@
   "normas-format": "Formato",
   "normas-format-text": "Textos em markdown, entre 500 e 4000 palavras. Incluir título, resumo de até 150 caracteres e nome do autor com filiação institucional.",
   "normas-process": "Processo Editorial",
-  "normas-process-text": "Após submissão, o texto é distribuído ao corpo editorial. Cada editor revisa e aprova ou sugere revisões. Com 3 aprovações, o texto é publicado automaticamente.",
+  "normas-process-text": "Após submissão, o texto é distribuído ao corpo editorial, que avalia a curadoria e aprova ou não a publicação. A revisão dos textos é responsabilidade dos autores. Com 3 aprovações, o texto é publicado automaticamente.",
   "normas-languages": "Idiomas",
   "normas-languages-text": "Os textos são publicados em português e inglês. O autor pode escrever em qualquer um dos idiomas; a versão no outro idioma é gerada e revisada pelo autor antes da publicação.",
 
@@ -48,7 +48,7 @@
 
   "page-edicoes-title": "Edições",
   "page-edicoes-desc": "Todas as edições do Enhanced",
-  "edicoes-intro": "O Enhanced publica em fluxo contínuo, agrupado por volume/numero. Veja abaixo todas as edições.",
+  "edicoes-intro": "O Enhanced publica edições semestrais. Veja abaixo todas as edições.",
 
   "page-textos-title": "Textos",
   "page-textos-desc": "Todos os textos publicados no Enhanced",

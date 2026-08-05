@@ -7,12 +7,12 @@ toc: false
 
 <script>document.body.dataset.i18nPageTitle='page-edicoes-title';document.body.dataset.i18nPageDesc='page-edicoes-desc';</script>
 
-<p data-i18n="edicoes-intro">O Enhanced publica em fluxo contínuo, agrupado por volume/número. Veja abaixo todas as edições.</p>
+<p data-i18n="edicoes-intro">O Enhanced publica edições semestrais. Veja abaixo todas as edições.</p>
 
-## Vol. 1, N. 1 (ago/2026)
+## 2026.2
 
 ::: {.edition-badge}
-Vol. 1, N. 1
+2026.2
 :::
 
 Em breve.

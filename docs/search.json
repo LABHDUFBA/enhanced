@@ -4,7 +4,7 @@
     "href": "corpo-editorial.html",
     "title": "Corpo Editorial",
     "section": "",
-    "text": "O corpo editorial do Enhanced é responsável pela curadoria, revisão e aprovação dos textos publicados. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado."
+    "text": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado."
   },
   {
     "objectID": "corpo-editorial.html#editor-executivo",
@@ -95,14 +95,14 @@
     "href": "edicoes.html",
     "title": "Edições",
     "section": "",
-    "text": "O Enhanced publica em fluxo contínuo, agrupado por volume/número. Veja abaixo todas as edições."
+    "text": "O Enhanced publica edições semestrais. Veja abaixo todas as edições."
   },
   {
-    "objectID": "edicoes.html#vol.-1-n.-1-ago2026",
-    "href": "edicoes.html#vol.-1-n.-1-ago2026",
+    "objectID": "edicoes.html#section",
+    "href": "edicoes.html#section",
     "title": "Edições",
-    "section": "Vol. 1, N. 1 (ago/2026)",
-    "text": "Vol. 1, N. 1 (ago/2026)\n\nVol. 1, N. 1\n\nEm breve."
+    "section": "2026.2",
+    "text": "2026.2\n\n2026.2\n\nEm breve."
   },
   {
     "objectID": "index.html",
@@ -158,7 +158,7 @@
     "href": "normas.html#processo-editorial",
     "title": "Normas para Publicação",
     "section": "Processo Editorial",
-    "text": "Processo Editorial\n\nApós submissão, o texto é distribuído ao corpo editorial. Cada editor revisa e aprova ou sugere revisões. Com 3 aprovações, o texto é publicado automaticamente."
+    "text": "Processo Editorial\n\nApós submissão, o texto é distribuído ao corpo editorial, que avalia a curadoria e aprova ou não a publicação. A revisão dos textos é responsabilidade dos autores. Com 3 aprovações, o texto é publicado automaticamente."
   },
   {
     "objectID": "normas.html#idiomas",

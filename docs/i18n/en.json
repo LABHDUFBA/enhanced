@@ -24,7 +24,7 @@
 
   "page-editorial-title": "Editorial Board",
   "page-editorial-desc": "Editorial team of Enhanced",
-  "editorial-intro": "The editorial board of Enhanced is responsible for curation, review, and approval of published texts. Each text requires 3 approvals from the editorial board to be published.",
+  "editorial-intro": "The editorial board of Enhanced is responsible for curation and approval of published texts. Proofreading and revision are the authors' responsibility. Each text requires 3 approvals from the editorial board to be published.",
   "editor-executive": "Executive Editor",
   "editor-associate": "Associate Editor",
   "editor-board": "Editorial Board",
@@ -35,7 +35,7 @@
   "normas-format": "Format",
   "normas-format-text": "Texts in markdown, between 500 and 4000 words. Include title, abstract up to 150 characters, and author name with institutional affiliation.",
   "normas-process": "Editorial Process",
-  "normas-process-text": "After submission, the text is distributed to the editorial board. Each editor reviews and approves or suggests revisions. With 3 approvals, the text is automatically published.",
+  "normas-process-text": "After submission, the text is distributed to the editorial board, which evaluates curation and approves or rejects publication. Proofreading and revision are the authors' responsibility. With 3 approvals, the text is automatically published.",
   "normas-languages": "Languages",
   "normas-languages-text": "Texts are published in Portuguese and English. The author may write in either language; the version in the other language is generated and reviewed by the author before publication.",
 
@@ -48,7 +48,7 @@
 
   "page-edicoes-title": "Issues",
   "page-edicoes-desc": "All issues of Enhanced",
-  "edicoes-intro": "Enhanced publishes on a rolling basis, grouped by volume/issue. See all issues below.",
+  "edicoes-intro": "Enhanced publishes semiannual issues. See all issues below.",
 
   "page-textos-title": "Articles",
   "page-textos-desc": "All articles published in Enhanced",

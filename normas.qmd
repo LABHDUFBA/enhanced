@@ -15,7 +15,7 @@ toc: true
 
 ## <span data-i18n="normas-process">Processo Editorial</span>
 
-<p data-i18n="normas-process-text">Após submissão, o texto é distribuído ao corpo editorial. Cada editor revisa e aprova ou sugere revisões. Com 3 aprovações, o texto é publicado automaticamente.</p>
+<p data-i18n="normas-process-text">Após submissão, o texto é distribuído ao corpo editorial, que avalia a curadoria e aprova ou não a publicação. A revisão dos textos é responsabilidade dos autores. Com 3 aprovações, o texto é publicado automaticamente.</p>
 
 ## <span data-i18n="normas-languages">Idiomas</span>
 
