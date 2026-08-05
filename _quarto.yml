@@ -73,7 +73,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: styles-v2.css
     toc: true
     footnotes-hover: true
     email-obfuscation: javascript
