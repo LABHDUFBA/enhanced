@@ -149,10 +149,9 @@
     const labels = {pt:'PT', en:'EN'};
     const full   = {pt:'Português', en:'English'};
 
-    const collapse = document.querySelector('.navbar-collapse');
-    if (!collapse) return;
-
-    const socialNav = collapse.querySelector('.navbar-nav.ms-auto');
+    // Insert before the search icon (#quarto-search) in the navbar bar
+    const searchIcon = document.getElementById('quarto-search');
+    const navbarContainer = searchIcon ? searchIcon.parentNode : null;
 
     const wrap = document.createElement('div');
     wrap.id = 'lang-selector';
@@ -169,10 +168,18 @@
       wrap.appendChild(btn);
     });
 
-    if (socialNav) {
-      collapse.insertBefore(wrap, socialNav);
+    if (searchIcon && navbarContainer) {
+      navbarContainer.insertBefore(wrap, searchIcon);
     } else {
-      collapse.appendChild(wrap);
+      // Fallback: insert inside collapse before ms-auto nav
+      const collapse = document.querySelector('.navbar-collapse');
+      if (!collapse) return;
+      const socialNav = collapse.querySelector('.navbar-nav.ms-auto');
+      if (socialNav) {
+        collapse.insertBefore(wrap, socialNav);
+      } else {
+        collapse.appendChild(wrap);
+      }
     }
   }
 
