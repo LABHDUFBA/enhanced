@@ -149,9 +149,9 @@
     const labels = {pt:'PT', en:'EN'};
     const full   = {pt:'Português', en:'English'};
 
-    // Insert before the search icon (#quarto-search) in the navbar bar
+    // Place the selector in the brand/title area, not on a separate navbar row
+    const brandContainer = document.querySelector('.navbar-brand-container');
     const searchIcon = document.getElementById('quarto-search');
-    const navbarContainer = searchIcon ? searchIcon.parentNode : null;
 
     const wrap = document.createElement('div');
     wrap.id = 'lang-selector';
@@ -168,8 +168,10 @@
       wrap.appendChild(btn);
     });
 
-    if (searchIcon && navbarContainer) {
-      navbarContainer.insertBefore(wrap, searchIcon);
+    if (brandContainer) {
+      brandContainer.appendChild(wrap);
+    } else if (searchIcon && searchIcon.parentNode) {
+      searchIcon.parentNode.insertBefore(wrap, searchIcon);
     } else {
       // Fallback: insert inside collapse before ms-auto nav
       const collapse = document.querySelector('.navbar-collapse');
