@@ -1,6 +1,9 @@
 ---
 title: "Enhanced"
+description: "Digital Humanities and Artificial Intelligence — LABHDUFBA"
 description-meta: "Enhanced — Digital Humanities and Artificial Intelligence. Blog do LABHDUFBA."
+image: "files/images/og-enhanced.jpg"
+include-in-header: "files/includes/og-home.html"
 page-navigation: false
 toc: false
 page-layout: full
