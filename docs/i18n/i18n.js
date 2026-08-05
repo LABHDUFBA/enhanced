@@ -8,6 +8,8 @@
   const DEFAULT = 'en';
   const STORAGE_KEY = 'enhanced-lang';
   const cache = {};
+  const script = [...document.scripts].find(s => s.src.includes('/i18n/i18n.js'));
+  const I18N_BASE = script ? new URL('./', script.src).href : 'https://labhdufba.github.io/enhanced/i18n/';
 
   /* ── Detection ──────────────────────────────────────── */
   function detectLang() {
@@ -27,7 +29,7 @@
   async function load(lang) {
     if (cache[lang]) return cache[lang];
     try {
-      const r = await fetch(`./i18n/${lang}.json`);
+      const r = await fetch(`${I18N_BASE}${lang}.json`);
       if (!r.ok) throw new Error(r.status);
       cache[lang] = await r.json();
       return cache[lang];
