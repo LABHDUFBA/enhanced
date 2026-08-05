@@ -54,7 +54,7 @@ website:
 
   page-footer:
     left: "Enhanced &copy; <script>document.write(new Date().getFullYear())</script> · LABHDUFBA"
-    center: "<a href=\"https://labhd.ufba.br\"><img src=\"files/images/labhd-logo.webp\" alt=\"LABHDUFBA\" style=\"height:1.5rem; vertical-align:middle; opacity:0.7;\"></a>"
+    center: "<a href=\"https://labhd.ufba.br\"><img src=\"https://labhdufba.github.io/enhanced/files/images/labhd-logo.webp\" alt=\"LABHDUFBA\" style=\"height:1.5rem; vertical-align:middle; opacity:0.7;\"></a>"
     right:
       - icon: github
         href: https://github.com/labhdufba

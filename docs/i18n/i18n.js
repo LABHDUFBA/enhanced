@@ -77,7 +77,7 @@
     const footer = document.querySelector('.nav-footer-center');
     if (!footer) return;
     const p = footer.querySelector('p');
-    if (!p) return;
+    if (!p || p.querySelector('img')) return;
     const builtWith = t['footer-built'] || 'Construído com';
     const links = p.querySelectorAll('a');
     const quartoHref = links[0]?.href || 'https://quarto.org';
