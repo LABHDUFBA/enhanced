@@ -4,8 +4,8 @@
 (function() {
   'use strict';
 
-  const SUPPORTED = ['pt', 'en'];
-  const DEFAULT = 'pt';
+  const SUPPORTED = ['en', 'pt'];
+  const DEFAULT = 'en';
   const STORAGE_KEY = 'enhanced-lang';
   const cache = {};
 

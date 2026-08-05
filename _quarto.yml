@@ -84,5 +84,5 @@ format:
     footnotes-hover: true
     email-obfuscation: javascript
     link-external-newwindow: true
-    lang: pt-BR
+    lang: en
     include-in-header: "files/includes/_i18n.html"
