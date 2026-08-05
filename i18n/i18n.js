@@ -27,7 +27,7 @@
   async function load(lang) {
     if (cache[lang]) return cache[lang];
     try {
-      const r = await fetch(`/i18n/${lang}.json`);
+      const r = await fetch(`./i18n/${lang}.json`);
       if (!r.ok) throw new Error(r.status);
       cache[lang] = await r.json();
       return cache[lang];

@@ -6,6 +6,7 @@ project:
     - i18n/*.js
     - i18n/*.css
     - files/docs/*
+    - files/images/*
 
 # Meta
 description-meta: "Enhanced — Digital Humanities and Artificial Intelligence. Blog do LABHDUFBA."
@@ -13,7 +14,7 @@ author-meta: "LABHDUFBA"
 
 website:
   title: "Enhanced"
-  image: "files/images/logo.png"
+  image: "files/images/labhd-logo.webp"
   description: "Digital Humanities and Artificial Intelligence — LABHDUFBA"
 
   navbar:
@@ -53,7 +54,7 @@ website:
 
   page-footer:
     left: "Enhanced &copy; <script>document.write(new Date().getFullYear())</script> · LABHDUFBA"
-    center: "Construído com [Quarto](https://quarto.org)"
+    center: "<a href=\"https://labhd.ufba.br\"><img src=\"files/images/labhd-logo.webp\" alt=\"LABHDUFBA\" style=\"height:1.5rem; vertical-align:middle; opacity:0.7;\"></a>"
     right:
       - icon: github
         href: https://github.com/labhdufba
