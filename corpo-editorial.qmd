@@ -91,7 +91,7 @@ Bruno Durães
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
 ::: {.editor-affiliation}
-<span data-i18n="aff-bruno">Professor Associado de Sociologia na UFRJ · Coordenador do LABHD/UFRJ · Doutor em Ciências Sociais (Unicamp)</span>
+<span data-i18n="aff-bruno">Professor Associado de Sociologia na UFRJ · Doutor em Ciências Sociais (Unicamp)</span>
 :::
 :::
 :::
