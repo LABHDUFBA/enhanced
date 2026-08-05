@@ -8,13 +8,13 @@ project:
     - files/docs/*
 
 # Meta
-description-meta: "Enhanced — Digital Humanities and Artificial Intelligence. Blog do LabHD UFBA."
-author-meta: "LabHD UFBA"
+description-meta: "Enhanced — Digital Humanities and Artificial Intelligence. Blog do LABHDUFBA."
+author-meta: "LABHDUFBA"
 
 website:
   title: "Enhanced"
   image: "files/images/logo.png"
-  description: "Digital Humanities and Artificial Intelligence — LabHD UFBA"
+  description: "Digital Humanities and Artificial Intelligence — LABHDUFBA"
 
   navbar:
     background: dark
@@ -52,7 +52,7 @@ website:
   page-navigation: true
 
   page-footer:
-    left: "Enhanced &copy; <script>document.write(new Date().getFullYear())</script> · LabHD UFBA"
+    left: "Enhanced &copy; <script>document.write(new Date().getFullYear())</script> · LABHDUFBA"
     center: "Construído com [Quarto](https://quarto.org)"
     right:
       - icon: github

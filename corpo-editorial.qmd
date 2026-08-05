@@ -23,7 +23,7 @@ Ricardo Sodré Andrade
 Editor Executivo
 :::
 ::: {.editor-affiliation}
-LabHD UFBA / Arquivo Nacional (ERE-NE)
+LABHDUFBA / Arquivo Nacional (ERE-NE)
 :::
 :::
 :::
@@ -42,7 +42,7 @@ Leonardo Nascimento
 Editor Associado
 :::
 ::: {.editor-affiliation}
-LabHD UFBA
+LABHDUFBA
 :::
 :::
 :::
@@ -59,7 +59,7 @@ Eric Brasil
 Editor Associado
 :::
 ::: {.editor-affiliation}
-LabHD UFBA
+LABHDUFBA
 :::
 :::
 :::
@@ -78,7 +78,7 @@ Rosana
 Corpo Editorial
 :::
 ::: {.editor-affiliation}
-LabHD UFBA
+LABHDUFBA
 :::
 :::
 :::
@@ -95,7 +95,7 @@ Bruno
 Corpo Editorial
 :::
 ::: {.editor-affiliation}
-LabHD UFBA
+LABHDUFBA
 :::
 :::
 :::
@@ -112,7 +112,7 @@ Tarssio
 Corpo Editorial
 :::
 ::: {.editor-affiliation}
-LabHD UFBA
+LABHDUFBA
 :::
 :::
 :::
@@ -129,7 +129,7 @@ Letícia Cesar
 Corpo Editorial
 :::
 ::: {.editor-affiliation}
-LabHD UFBA
+LABHDUFBA
 :::
 :::
 :::

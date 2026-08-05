@@ -13,7 +13,7 @@ toc: false
 
 ## <span data-i18n="contato-address">Endereço</span>
 
-<span data-i18n="contato-address-text">LabHD UFBA — Av. Milton Santos, Ondina, PAF-V, sala 305a, Salvador/BA, CEP 40170-110</span>
+<span data-i18n="contato-address-text">LABHDUFBA — Av. Milton Santos, Ondina, PAF-V, sala 305a, Salvador/BA, CEP 40170-110</span>
 
 ## <span data-i18n="contato-social">Redes Sociais</span>
 
