@@ -246,40 +246,52 @@ a:hover {
 /* --- Language selector (from feudo.org) --- */
 .lang-selector {
   display: flex !important;
-  gap: 0.3rem !important;
+  gap: 0.4rem !important;
   align-items: center !important;
   flex-shrink: 0 !important;
-  padding: 0 0.5rem !important;
+  padding: 0 0.75rem !important;
+  margin-left: 0.5rem !important;
+}
+.lang-selector::before {
+  content: "\1F310";
+  font-size: 1.1rem !important;
+  margin-right: 0.15rem !important;
+  opacity: 0.85 !important;
 }
 .lang-selector .lang-btn {
-  background: rgba(255,255,255,0.15) !important;
-  border: 1px solid rgba(255,255,255,0.3) !important;
-  border-radius: 3px !important;
+  background: rgba(255,255,255,0.18) !important;
+  border: 1.5px solid rgba(255,255,255,0.4) !important;
+  border-radius: 6px !important;
   color: #fff !important;
-  font-size: 0.72rem !important;
+  font-size: 0.85rem !important;
   font-weight: 700 !important;
-  padding: 0.3rem 0.55rem !important;
+  padding: 0.4rem 0.85rem !important;
   cursor: pointer !important;
-  transition: all 0.15s ease !important;
-  letter-spacing: 0.04em !important;
+  transition: all 0.2s ease !important;
+  letter-spacing: 0.05em !important;
   line-height: 1.3 !important;
   white-space: nowrap !important;
   text-decoration: none !important;
   display: inline-block !important;
+  min-width: 2.6rem !important;
+  text-align: center !important;
 }
 .lang-selector .lang-btn:hover {
-  background: rgba(255,255,255,0.25) !important;
-  border-color: rgba(255,255,255,0.5) !important;
+  background: rgba(255,255,255,0.32) !important;
+  border-color: rgba(255,255,255,0.7) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25) !important;
 }
 .lang-selector .lang-btn-active {
   background: var(--enh-highlight) !important;
-  border-color: transparent !important;
+  border-color: var(--enh-highlight) !important;
   color: #fff !important;
   font-weight: 800 !important;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.15) !important;
 }
 @media (max-width: 991.98px) {
-  .lang-selector { padding: 0.5rem 0 !important; gap: 0.4rem !important; justify-content: center !important; width: 100% !important; border-top: 1px solid rgba(255,255,255,0.1); }
-  .lang-selector .lang-btn { padding: 0.4rem 0.8rem !important; font-size: 0.9rem !important; }
+  .lang-selector { padding: 0.5rem 0 !important; gap: 0.4rem !important; justify-content: center !important; width: 100% !important; border-top: 1px solid rgba(255,255,255,0.1); margin-left: 0 !important; }
+  .lang-selector .lang-btn { padding: 0.45rem 1rem !important; font-size: 1rem !important; min-width: 3.5rem !important; }
   .navbar-collapse .navbar-nav.ms-auto { display: flex !important; flex-direction: row !important; gap: 0.25rem !important; justify-content: center !important; width: 100% !important; }
   .navbar-collapse .navbar-nav.ms-auto .nav-item.compact { margin: 0 !important; padding: 0 !important; }
 }
