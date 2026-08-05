@@ -57,7 +57,7 @@ Ricardo Sodré Andrade
 <span data-i18n="role-member">Membro do LABHDUFBA</span>
 :::
 ::: {.editor-affiliation}
-<span data-i18n="aff-ricardo">Chefe do Escritório Regional Nordeste do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA)</span>
+<span data-i18n-html="aff-ricardo">Chefe do Escritório Regional Nordeste do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA) · <a href="https://feudo.org">feudo.org</a></span>
 :::
 :::
 :::
