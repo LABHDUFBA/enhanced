@@ -1,1 +1,1 @@
-Sitemap: https://labhdufba.github.io/enhanced/sitemap.xml
+Sitemap: https://enhanced.inovahd.org/sitemap.xml

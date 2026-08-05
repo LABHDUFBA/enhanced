@@ -51,7 +51,7 @@ website:
 
   page-footer:
     left: "Enhanced &copy; <script>document.write(new Date().getFullYear())</script> · LABHDUFBA"
-    center: "<a href=\"https://labhd.ufba.br\"><img src=\"https://labhdufba.github.io/enhanced/files/images/labhd-logo.webp\" alt=\"LABHDUFBA\" style=\"height:2.25rem; vertical-align:middle; opacity:0.78;\"></a>"
+    center: "<a href=\"https://labhd.ufba.br\"><img src=\"https://enhanced.inovahd.org/files/images/labhd-logo.webp\" alt=\"LABHDUFBA\" style=\"height:2.25rem; vertical-align:middle; opacity:0.78;\"></a>"
     right:
       - icon: github
         href: https://github.com/labhdufba
@@ -67,7 +67,7 @@ website:
 
   twitter-card: true
 
-  site-url: "https://labhdufba.github.io/enhanced"
+  site-url: "https://enhanced.inovahd.org"
   favicon: "files/images/favicon.svg"
 
 format:
