@@ -2,15 +2,13 @@
   {
     "listing": "/textos.html",
     "items": [
-      "/posts/example-essay/index.html",
-      "/posts/example-essay-en/index.html"
+      "/posts/example-essay/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/example-essay/index.html",
-      "/posts/example-essay-en/index.html"
+      "/posts/example-essay/index.html"
     ]
   }
 ]
