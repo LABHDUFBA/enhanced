@@ -3,7 +3,7 @@ title: "IA Agents and the Humanities: What Changes When the Machine Writes With 
 author: "Ricardo Sodré Andrade"
 date: 2026-08-03
 description: "A reflection on how AI agents are transforming the practice of digital humanities."
-image: files/images/example-hero.svg
+image: files/images/example-essay-en.png
 categories:
   - AI
   - Digital Humanities

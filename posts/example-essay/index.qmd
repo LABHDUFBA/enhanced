@@ -3,7 +3,7 @@ title: "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a 
 author: "Ricardo Sodré Andrade"
 date: 2026-08-03
 description: "Uma reflexão sobre como agentes de IA estão transformando a prática das humanidades digitais."
-image: files/images/example-hero.svg
+image: files/images/example-essay-pt.png
 categories:
   - IA
   - Humanidades Digitais

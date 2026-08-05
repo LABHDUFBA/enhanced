@@ -43,7 +43,11 @@ body {
 
 /* --- Hero section (homepage) --- */
 .hero-section {
-  background: linear-gradient(135deg, var(--enh-primary) 0%, var(--enh-accent) 100%);
+  background-image: linear-gradient(90deg, rgba(8, 22, 38, 0.84) 0%, rgba(8, 22, 38, 0.58) 48%, rgba(8, 22, 38, 0.18) 100%), url('https://labhdufba.github.io/enhanced/files/images/home-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--enh-primary);
   color: #fff;
   padding: 4rem 2rem;
   margin-bottom: 2rem;
