@@ -57,6 +57,17 @@ O código-fonte editorial fica na raiz. O HTML publicado é gerado em `docs/`.
    - botões `data-article-lang`.
 5. Renderize, verifique o card em `docs/index.html`/`docs/textos.html` e faça commit.
 
+## Internacionalização
+
+A interface pública alterna entre português e inglês no navegador por `i18n/i18n.js`.
+
+- Mantenha cada chave em `i18n/pt.json` e `i18n/en.json`; as cópias renderizadas em `docs/i18n/` devem ser versionadas junto.
+- Páginas institucionais usam `data-i18n`/`data-i18n-html`. Para novo texto estático de uma página, inclua uma chave nos dois catálogos, em vez de deixar a versão em português fixa.
+- Artigos bilíngues seguem o padrão de `posts/recortes-de-jornais-ufba/index.qmd`: `#article-language-meta`, blocos `.article-version` em `pt` e `en`, e botões `data-article-lang`.
+- Cards de listagens (home e `textos.qmd`) são traduzidos por slug no `i18n.js`. Para cada novo artigo, acrescente nos dois catálogos as chaves `post-<slug>-title` e `post-<slug>-description`.
+- Rótulos de metadados do artigo (`Autor`/`Data de Publicação`) são traduzidos por `tagArticleMetadata()`; preserve a estrutura padrão do Quarto para esses metadados.
+- Ao alterar o sistema ou os catálogos de i18n, aumente em conjunto `I18N_VERSION` em `i18n/i18n.js` e o parâmetro `?v=` em `files/includes/_i18n.html`, para evitar cache antigo do JavaScript e dos JSONs. Renderize ou atualize as cópias em `docs/` e confirme que ambas as versões usam a mesma revisão.
+
 ## Adicionar ou atualizar uma edição
 
 Edite `edicoes.qmd`. Mantenha a edição mais recente e seus textos com links ou listagens claras. Se a edição ganhar uma página própria, crie um diretório em `posts/` ou uma página `.qmd` e atualize a navegação/listagem conforme necessário.
