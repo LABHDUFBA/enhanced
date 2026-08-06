@@ -7,6 +7,7 @@ project:
     - i18n/*.css
     - files/docs/*
     - files/images/*
+    - files/anexos/**
 
 # Meta
 description-meta: "Enhanced — Digital Humanities and Artificial Intelligence. Blog do LABHDUFBA."

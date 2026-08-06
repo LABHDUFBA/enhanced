@@ -1,108 +1,59 @@
 [
   {
-    "objectID": "corpo-editorial.html",
-    "href": "corpo-editorial.html",
-    "title": "Corpo Editorial",
-    "section": "",
-    "text": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado."
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#protótipo-do-farinha",
+    "href": "posts/recortes-de-jornais-ufba/index.html#protótipo-do-farinha",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "Protótipo do Farinha",
+    "text": "Protótipo do Farinha\nEm 2023, o Farinha ainda era um rascunho do que é hoje e funcionava como plataforma do projeto nascente Arquivos da UFBA. Era um sistema desenvolvido internamente, voltado inicialmente para o acesso aos acervos dos Lugares de Memória. Com o tempo, outros departamentos da UFBA solicitaram seu uso e o esforço de desenvolvimento do Farinha se tornou o projeto amadurecido que é hoje."
   },
   {
-    "objectID": "corpo-editorial.html#corpo-editorial",
-    "href": "corpo-editorial.html#corpo-editorial",
-    "title": "Corpo Editorial",
-    "section": "Corpo Editorial",
-    "text": "Corpo Editorial\n\n\nLN\n\n\n\nLeonardo F. Nascimento\n\n\nCoordenador do LABHDUFBA\n\n\nAnalista no CADE/MJ · Doutor em Sociologia · PPGCS/UFBA\n\n\n\n\n\nEB\n\n\n\nEric Brasil\n\n\nVice-coordenador do LABHDUFBA\n\n\nProfessor da UNILAB (IHLM) · Doutor em História (UFF)\n\n\n\n\n\nRS\n\n\n\nRicardo Sodré Andrade\n\n\nMembro do LABHDUFBA\n\n\nChefe do Escritório Regional Nordeste do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA) · feudo.org\n\n\n\n\n\nR\n\n\n\nRosana Moore\n\n\nMembro do LABHDUFBA\n\n\nDoutora em Sociologia (IESP/UERJ)\n\n\n\n\n\nBD\n\n\n\nBruno Durães\n\n\nMembro do LABHDUFBA\n\n\nProfessor Associado de Sociologia na UFRJ · Doutor em Ciências Sociais (Unicamp)\n\n\n\n\n\nT\n\n\n\nTarssio Barreto\n\n\nMembro do LABHDUFBA\n\n\nMestre em Ambiente, Água e Saneamento · BIT Analytics\n\n\n\n\n\nLC\n\n\n\nLetícia Cesarino\n\n\nMembro do LABHDUFBA\n\n\nProfessora da UFSC · Doutora em Antropologia (UC Berkeley)\n\n\n\nPaís de publicação: Brasil"
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#conteúdo-do-módulo-de-rag-demonstração",
+    "href": "posts/recortes-de-jornais-ufba/index.html#conteúdo-do-módulo-de-rag-demonstração",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "Conteúdo do módulo de RAG (demonstração)",
+    "text": "Conteúdo do módulo de RAG (demonstração)\nComo parte de uma série de demonstrações do potencial da técnica de inteligência artificial denominada Retrieval-Augmented Generation (RAG), ou Geração Aumentada por Recuperação, o acervo foi utilizado em uma experiência de consulta baseada em linguagem natural.\nO objetivo sempre foi apresentar o potencial do RAG para acervos documentais: a possibilidade de estabelecer um serviço de referência online, baseado em inteligência artificial, e aproximar o acervo do público em geral por meio de uma interface com linguagem natural.\nCom sorte, ainda será possível testar esse RAG de demonstração em recortes.farinha.info. Em breve, um módulo de RAG será incorporado ao Farinha e esse acervo estará disponível na instância da UFBA."
   },
   {
-    "objectID": "textos.html",
-    "href": "textos.html",
-    "title": "Textos",
-    "section": "",
-    "text": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?\n\n\nUma reflexão sobre como agentes de IA estão transformando a prática das humanidades digitais.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 3, 2026\n\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#arquivos-da-ufba",
+    "href": "posts/recortes-de-jornais-ufba/index.html#arquivos-da-ufba",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "Arquivos da UFBA",
+    "text": "Arquivos da UFBA\nO projeto Arquivos da UFBA deixará o protótipo do Farinha e passará a usar o Farinha atual, disponível em farinha.info. Essa mudança de plataforma é um passo adiante para o projeto e disponibilizará não apenas o acervo dos Recortes de Jornais, mas também inaugurará uma nova fase de disponibilização de acervos da Universidade, o que deve acontecer até o final de 2027.\nEspera-se que o módulo de RAG seja ativado para os Recortes de Jornais, além de outros acervos. Isso demandará recursos para a plataforma, mas tenho confiança de que será realizado."
   },
   {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "labhd.ufba.br"
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#bônus-experimento-de-mapeamento",
+    "href": "posts/recortes-de-jornais-ufba/index.html#bônus-experimento-de-mapeamento",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "Bônus: experimento de mapeamento",
+    "text": "Bônus: experimento de mapeamento\nEm um dia aleatório no LABHDUFBA, recebi um link que me levou à ideia de tentar mapear os locais citados nos recortes. Com o auxílio do Hermes Agent e do modelo LLM GLM-5.2, foi criado este mapa com os recortes.\nCom auxílio de um agente, esse resultado levou algo entre 20 e 30 minutos — os embeddings já existiam. Há um longo caminho de possibilidades com LLMs, e o uso de agentes de IA abre um horizonte imenso: uma estrada sem fim à vista, que as humanidades digitais começaram a trilhar.\nObservação: este texto foi escrito sem auxílio de IA ou agentes, exceto na tradução para o inglês."
   },
   {
-    "objectID": "contato.html#site",
-    "href": "contato.html#site",
-    "title": "Contato",
-    "section": "",
-    "text": "labhd.ufba.br"
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#the-farinha-prototype",
+    "href": "posts/recortes-de-jornais-ufba/index.html#the-farinha-prototype",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "The Farinha prototype",
+    "text": "The Farinha prototype\nIn 2023, Farinha was still an early draft of what it is today and served as the platform for the emerging Arquivos da UFBA project. It was an in-house system initially designed to provide access to the Lugares de Memória collections. Over time, other UFBA departments requested to use it, and the development effort evolved into the mature Farinha project that exists today."
   },
   {
-    "objectID": "contato.html#e-mail",
-    "href": "contato.html#e-mail",
-    "title": "Contato",
-    "section": "E-mail",
-    "text": "E-mail\nlabhd at ufba dot br"
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#rag-module-content-demonstration",
+    "href": "posts/recortes-de-jornais-ufba/index.html#rag-module-content-demonstration",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "RAG module content (demonstration)",
+    "text": "RAG module content (demonstration)\nAs part of a series of demonstrations of the potential of the artificial-intelligence technique known as Retrieval-Augmented Generation (RAG), the collection was used in an experiment with natural-language querying.\nThe aim has always been to demonstrate RAG’s potential for documentary collections: the possibility of establishing an online reference service based on artificial intelligence and bringing the collection closer to the general public through a natural-language interface.\nWith some luck, it may still be possible to test this demonstration RAG at recortes.farinha.info. Soon, a RAG module will be incorporated into Farinha and this collection will be available through UFBA’s instance."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Enhanced",
-    "section": "",
-    "text": "Enhanced\n\nHumanidades Digitais e Inteligência Artificial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?\n\n\nUma reflexão sobre como agentes de IA estão transformando a prática das humanidades digitais.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 3, 2026\n\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#arquivos-da-ufba-1",
+    "href": "posts/recortes-de-jornais-ufba/index.html#arquivos-da-ufba-1",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "Arquivos da UFBA",
+    "text": "Arquivos da UFBA\nThe Arquivos da UFBA project will leave the Farinha prototype behind and move to the current Farinha platform, available at farinha.info. This change is a step forward for the project: it will make available not only the Newspaper Clippings Collection but will also inaugurate a new phase in the dissemination of University collections, expected by the end of 2027.\nThe RAG module is expected to be activated for the Newspaper Clippings Collection as well as for other collections. This will require resources for the platform, but I am confident that it will be achieved."
   },
   {
-    "objectID": "edicoes.html",
-    "href": "edicoes.html",
-    "title": "Edições",
-    "section": "",
-    "text": "O Enhanced publica edições semestrais. Veja abaixo todas as edições."
-  },
-  {
-    "objectID": "edicoes.html#section",
-    "href": "edicoes.html#section",
-    "title": "Edições",
-    "section": "2026.2",
-    "text": "2026.2\n\n2026.2\n\nEm breve."
-  },
-  {
-    "objectID": "posts/example-essay/index.html#a-sinapse-artificial",
-    "href": "posts/example-essay/index.html#a-sinapse-artificial",
-    "title": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?",
-    "section": "A sinapse artificial",
-    "text": "A sinapse artificial\nQuando falamos de “humanidades digitais”, geralmente pensamos em aplicar ferramentas computacionais a problemas humanísticos. Mas os agentes de IA invertem essa relação: não somos nós que aplicamos a máquina aos textos, é a máquina que está lendo, interpretando e respondendo aos nossos textos de maneiras que desafiam nossas categorias tradicionais.\nUm agente de IA não é apenas uma ferramenta de busca avançada. Ele planeja, decide, executa e aprende. No contexto das humanidades, isso significa que o agente pode identificar padrões em acervos documentais que um pesquisador humano levaria anos para perceber, mas também pode reproduzir vieses presentes nos dados de treinamento de formas sutis e difíceis de detectar."
-  },
-  {
-    "objectID": "posts/example-essay/index.html#entre-o-instrumento-e-o-interlocutor",
-    "href": "posts/example-essay/index.html#entre-o-instrumento-e-o-interlocutor",
-    "title": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?",
-    "section": "Entre o instrumento e o interlocutor",
-    "text": "Entre o instrumento e o interlocutor\nHá uma diferença fundamental entre usar um software de análise de texto e trabalhar com um agente que conversa, propõe, questiona. No primeiro caso, o pesquisador mantém o controle epistêmico: ele formula a pergunta e a máquina responde. No segundo, o agente pode reformular a pergunta, sugerir caminhos não explorados, ou mesmo discordar.\nIsso não é necessariamente um problema. Pode ser produtivamente desafiador. Mas exige que repensemos o que significa “autoria” em um texto produzido em colaboração com um agente de IA."
-  },
-  {
-    "objectID": "posts/example-essay/index.html#o-que-fica-o-que-muda",
-    "href": "posts/example-essay/index.html#o-que-fica-o-que-muda",
-    "title": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?",
-    "section": "O que fica, o que muda",
-    "text": "O que fica, o que muda\nA prática arquivística, por exemplo, tem regras claras de descrição e proveniência. Um agente de IA pode ajudar a descrever fundos documentais inteiros em horas, mas a validação humana continua sendo necessária, não por desconfiança, mas porque a descrição arquivística é um ato interpretativo, não apenas classificatório.\nO Enhanced nasce dessa inquietação: um espaço para pensar, em texto livre, o que significa fazer humanidades quando a inteligência artificial deixou de ser ferramenta e passou a ser interlocutora.\nEste texto é um exemplo do formato que o Enhanced publicará: entre o post de blog e o ensaio acadêmico, acessível mas com rigor."
-  },
-  {
-    "objectID": "posts/example-essay/index.html#the-artificial-synapse",
-    "href": "posts/example-essay/index.html#the-artificial-synapse",
-    "title": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?",
-    "section": "The artificial synapse",
-    "text": "The artificial synapse\nWhen we speak of “digital humanities,” we usually think of applying computational tools to humanistic problems. But AI agents invert this relationship: it is no longer us who apply the machine to texts, it is the machine that is reading, interpreting, and responding to our texts in ways that challenge our traditional categories.\nAn AI agent is not just an advanced search tool. It plans, decides, executes, and learns. In the context of the humanities, this means that the agent can identify patterns in documentary collections that a human researcher would take years to perceive, but it can also reproduce biases present in training data in subtle and hard-to-detect ways."
-  },
-  {
-    "objectID": "posts/example-essay/index.html#between-tool-and-interlocutor",
-    "href": "posts/example-essay/index.html#between-tool-and-interlocutor",
-    "title": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?",
-    "section": "Between tool and interlocutor",
-    "text": "Between tool and interlocutor\nThere is a fundamental difference between using text analysis software and working with an agent that converses, proposes, questions. In the first case, the researcher maintains epistemic control: they formulate the question and the machine answers. In the second, the agent can reframe the question, suggest unexplored paths, or even disagree.\nThis is not necessarily a problem. It can be productively challenging. But it requires us to rethink what “authorship” means in a text produced in collaboration with an AI agent."
-  },
-  {
-    "objectID": "posts/example-essay/index.html#what-remains-what-changes",
-    "href": "posts/example-essay/index.html#what-remains-what-changes",
-    "title": "Agentes de IA e Humanidades: o que muda quando a máquina escreve com a gente?",
-    "section": "What remains, what changes",
-    "text": "What remains, what changes\nArchival practice, for example, has clear rules of description and provenance. An AI agent can help describe entire documentary fonds in hours, but human validation remains necessary, not out of distrust, but because archival description is an interpretive act, not merely classificatory.\nEnhanced is born from this unease: a space to think, in free text, about what it means to do humanities when artificial intelligence has ceased to be a tool and has become an interlocutor.\nThis text is an example of the format Enhanced will publish: between the blog post and the academic essay, accessible yet rigorous."
+    "objectID": "posts/recortes-de-jornais-ufba/index.html#bonus-a-mapping-experiment",
+    "href": "posts/recortes-de-jornais-ufba/index.html#bonus-a-mapping-experiment",
+    "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+    "section": "Bonus: a mapping experiment",
+    "text": "Bonus: a mapping experiment\nOn an ordinary day at LABHDUFBA, I received a link that led me to the idea of mapping the locations mentioned in the clippings. With the help of Hermes Agent and the GLM-5.2 LLM, this map of the clippings was created.\nWith an agent’s help, this result took around 20 to 30 minutes — the embeddings already existed. There is a long road of possibilities ahead for LLMs, and the use of AI agents opens an immense horizon: an endless road that digital humanities has begun to travel.\nNote: this text was written without the assistance of AI or agents, except for its English translation."
   },
   {
     "objectID": "normas.html",
@@ -131,5 +82,68 @@
     "title": "Normas para Publicação",
     "section": "Idiomas",
     "text": "Idiomas\n\nOs textos são publicados em português e inglês. O autor pode escrever em qualquer um dos idiomas; a versão no outro idioma é gerada e revisada pelo autor antes da publicação."
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "labhd.ufba.br"
+  },
+  {
+    "objectID": "contato.html#site",
+    "href": "contato.html#site",
+    "title": "Contato",
+    "section": "",
+    "text": "labhd.ufba.br"
+  },
+  {
+    "objectID": "contato.html#e-mail",
+    "href": "contato.html#e-mail",
+    "title": "Contato",
+    "section": "E-mail",
+    "text": "E-mail\nlabhd at ufba dot br"
+  },
+  {
+    "objectID": "edicoes.html",
+    "href": "edicoes.html",
+    "title": "Edições",
+    "section": "",
+    "text": "O Enhanced publica edições semestrais. Veja abaixo todas as edições."
+  },
+  {
+    "objectID": "edicoes.html#section",
+    "href": "edicoes.html#section",
+    "title": "Edições",
+    "section": "2026.2",
+    "text": "2026.2\n\n2026.2\n\nEm breve."
+  },
+  {
+    "objectID": "textos.html",
+    "href": "textos.html",
+    "title": "Textos",
+    "section": "",
+    "text": "Notas sobre a coleção Recortes de Jornais da UFBA\n\n\nUma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 6, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enhanced",
+    "section": "",
+    "text": "Enhanced\n\nHumanidades Digitais e Inteligência Artificial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotas sobre a coleção Recortes de Jornais da UFBA\n\n\nUma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 6, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "corpo-editorial.html",
+    "href": "corpo-editorial.html",
+    "title": "Corpo Editorial",
+    "section": "",
+    "text": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado."
+  },
+  {
+    "objectID": "corpo-editorial.html#corpo-editorial",
+    "href": "corpo-editorial.html#corpo-editorial",
+    "title": "Corpo Editorial",
+    "section": "Corpo Editorial",
+    "text": "Corpo Editorial\n\n\nLN\n\n\n\nLeonardo F. Nascimento\n\n\nCoordenador do LABHDUFBA\n\n\nAnalista no CADE/MJ · Doutor em Sociologia · PPGCS/UFBA\n\n\n\n\n\nEB\n\n\n\nEric Brasil\n\n\nVice-coordenador do LABHDUFBA\n\n\nProfessor da UNILAB (IHLM) · Doutor em História (UFF)\n\n\n\n\n\nRS\n\n\n\nRicardo Sodré Andrade\n\n\nMembro do LABHDUFBA\n\n\nChefe do Escritório Regional Nordeste do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA) · feudo.org\n\n\n\n\n\nR\n\n\n\nRosana Moore\n\n\nMembro do LABHDUFBA\n\n\nDoutora em Sociologia (IESP/UERJ)\n\n\n\n\n\nBD\n\n\n\nBruno Durães\n\n\nMembro do LABHDUFBA\n\n\nProfessor Associado de Sociologia na UFRJ · Doutor em Ciências Sociais (Unicamp)\n\n\n\n\n\nT\n\n\n\nTarssio Barreto\n\n\nMembro do LABHDUFBA\n\n\nMestre em Ambiente, Água e Saneamento · BIT Analytics\n\n\n\n\n\nLC\n\n\n\nLetícia Cesarino\n\n\nMembro do LABHDUFBA\n\n\nProfessora da UFSC · Doutora em Antropologia (UC Berkeley)\n\n\n\nPaís de publicação: Brasil"
   }
 ]

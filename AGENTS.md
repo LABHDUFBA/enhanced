@@ -17,6 +17,7 @@ O código-fonte editorial fica na raiz. O HTML publicado é gerado em `docs/`.
 - `posts/<slug>/index.qmd`: um texto publicado.
 - `posts/<slug>/files/images/`: imagens específicas do texto.
 - `files/images/`: imagens compartilhadas do site e imagens Open Graph.
+- `files/anexos/<edição>/<slug-do-artigo>/`: anexos estáticos de artigos — mapas, HTMLs, datasets pequenos e outros materiais suplementares. Exemplo: `files/anexos/2026.2/recortes-de-jornais-ufba/mapa-recortes.html`.
 - `i18n/en.json` e `i18n/pt.json`: traduções.
 - `i18n/i18n.js`: seleção de idioma, traduções no cliente e atualização da badge.
 - `styles-v2.css` e `styles.css`: estilos.

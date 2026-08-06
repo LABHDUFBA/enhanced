@@ -1,0 +1,115 @@
+---
+title: "Notas sobre a coleção Recortes de Jornais da UFBA"
+author: "Ricardo Sodré Andrade"
+date: 2026-08-06
+description: "Uma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA."
+image: files/images/recortes-ufba-card.jpg
+categories:
+  - Arquivos
+  - Humanidades Digitais
+  - IA
+  - UFBA
+lang: pt-BR
+---
+
+<div id="article-language-meta" hidden
+  data-title-pt="Notas sobre a coleção Recortes de Jornais da UFBA"
+  data-title-en="Notes on UFBA’s Newspaper Clippings Collection"
+  data-description-pt="Uma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA."
+  data-description-en="An overview of the digitization, access, and experiments involving UFBA Rectorate’s Newspaper Clippings Collection."></div>
+
+<div class="article-language-switch" role="group" aria-label="Idioma do artigo">
+  <span>Idioma:</span>
+  <button type="button" class="article-lang-btn article-lang-active" data-article-lang="pt">PT</button>
+  <button type="button" class="article-lang-btn" data-article-lang="en">EN</button>
+</div>
+
+::: {.article-version data-article-version="pt"}
+
+Este é o primeiro texto publicado na Enhanced, novo blog da associação InovaHD, uma iniciativa gestada no âmbito do LABHDUFBA e que inicia suas atividades, tal como este blog.
+
+Aproveito a oportunidade para escrever sobre um projeto que vem se desenvolvendo desde 2022. Como atividade apoiada pelo programa Permanecer, da Universidade Federal da Bahia (UFBA), o projeto recebeu bolsas para estudantes de graduação e viabilizou a digitalização da coleção Recortes de Jornais da Reitoria da UFBA.
+
+Os Recortes de Jornais da Reitoria da UFBA estão custodiados nos Lugares de Memória, departamento situado no prédio da Biblioteca Reitor Macedo Costa (BURMC), no campus da UFBA, em Salvador, Bahia. A coleção é composta por 12.752 fólios, resultado de um trabalho realizado entre as décadas de 1980 e 1990. Diariamente, o Serviço de Recortes de Jornais da Reitoria da UFBA recortava notícias referentes à Universidade e, por vezes, à Educação no Brasil e na Bahia, colando-as em folhas A4 devidamente carimbadas e identificadas com o nome do periódico, caderno, páginas e datas. Foram quase 30.000 recortes — muitos fólios possuem mais de um recorte.
+
+Em 2022, enquanto Arquivista da UFBA e lotado no Centro de Estudos Baianos, integrante dos Lugares de Memória, propus um projeto de digitalização e indexação dessa coleção. Com o auxílio de discentes bolsistas, os fólios foram digitalizados e, desde então, utilizados em projetos derivados. O trabalho foi finalizado em 2023 e, desde então, fizemos alguns usos desse material com vistas ao acesso.
+
+## Protótipo do Farinha
+
+Em 2023, o [Farinha](https://farinha.info) ainda era um rascunho do que é hoje e funcionava como plataforma do projeto nascente Arquivos da UFBA. Era um sistema desenvolvido internamente, voltado inicialmente para o acesso aos acervos dos Lugares de Memória. Com o tempo, outros departamentos da UFBA solicitaram seu uso e o esforço de desenvolvimento do Farinha se tornou o projeto amadurecido que é hoje.
+
+## Conteúdo do módulo de RAG (demonstração)
+
+Como parte de uma série de demonstrações do potencial da técnica de inteligência artificial denominada *Retrieval-Augmented Generation* (RAG), ou Geração Aumentada por Recuperação, o acervo foi utilizado em uma experiência de consulta baseada em linguagem natural.
+
+O objetivo sempre foi apresentar o potencial do RAG para acervos documentais: a possibilidade de estabelecer um serviço de referência online, baseado em inteligência artificial, e aproximar o acervo do público em geral por meio de uma interface com linguagem natural.
+
+Com sorte, ainda será possível testar esse RAG de demonstração em [recortes.farinha.info](https://recortes.farinha.info). Em breve, um módulo de RAG será incorporado ao Farinha e esse acervo estará disponível na instância da UFBA.
+
+## Arquivos da UFBA
+
+O projeto Arquivos da UFBA deixará o protótipo do Farinha e passará a usar o Farinha atual, disponível em [farinha.info](https://farinha.info). Essa mudança de plataforma é um passo adiante para o projeto e disponibilizará não apenas o acervo dos Recortes de Jornais, mas também inaugurará uma nova fase de disponibilização de acervos da Universidade, o que deve acontecer até o final de 2027.
+
+Espera-se que o módulo de RAG seja ativado para os Recortes de Jornais, além de outros acervos. Isso demandará recursos para a plataforma, mas tenho confiança de que será realizado.
+
+## Bônus: experimento de mapeamento
+
+Em um dia aleatório no LABHDUFBA, recebi [um link](https://www.linkedin.com/posts/leofn-labhdufba_eric-brasil-ricardo-sodr%C3%A9-andrade-ugcPost-7490755498166722560-dFED) que me levou à ideia de tentar mapear os locais citados nos recortes. Com o auxílio do Hermes Agent e do modelo LLM GLM-5.2, foi criado este [mapa com os recortes](#mapa-recortes-modal){data-bs-toggle="modal" data-bs-target="#mapa-recortes-modal"}.
+
+Com auxílio de um agente, esse resultado levou algo entre 20 e 30 minutos — os embeddings já existiam. Há um longo caminho de possibilidades com LLMs, e o uso de agentes de IA abre um horizonte imenso: uma estrada sem fim à vista, que as humanidades digitais começaram a trilhar.
+
+*Observação: este texto foi escrito sem auxílio de IA ou agentes, exceto na tradução para o inglês.*
+
+:::
+
+::: {.article-version data-article-version="en"}
+
+This is the first text published on Enhanced, the new blog of the InovaHD association. The initiative was developed within LABHDUFBA and is beginning its activities alongside this blog.
+
+I would like to use this opportunity to write about a project that has been developing since 2022. Supported by the Permanecer program at the Federal University of Bahia (UFBA), the project provided undergraduate scholarships and made possible the digitization of the UFBA Rectorate’s Newspaper Clippings Collection.
+
+The UFBA Rectorate’s Newspaper Clippings Collection is held by Lugares de Memória, a department located in the Biblioteca Reitor Macedo Costa (BURMC) building on the UFBA campus in Salvador, Bahia. The collection consists of 12,752 folios, the outcome of work carried out between the 1980s and 1990s. Every day, the UFBA Rectorate’s Newspaper Clippings Service cut out news concerning the University and, at times, education in Brazil and Bahia, pasting it onto A4 sheets stamped and identified with the newspaper title, section, pages, and dates. The collection contains nearly 30,000 clippings — many folios contain more than one clipping.
+
+In 2022, while working as an archivist at UFBA and assigned to the Centro de Estudos Baianos, part of Lugares de Memória, I proposed a project to digitize and index this collection. With the help of undergraduate scholarship students, the folios were digitized and have since been used in related projects. The work was completed in 2023, and we have since explored several ways to make this material accessible.
+
+## The Farinha prototype
+
+In 2023, [Farinha](https://farinha.info) was still an early draft of what it is today and served as the platform for the emerging Arquivos da UFBA project. It was an in-house system initially designed to provide access to the Lugares de Memória collections. Over time, other UFBA departments requested to use it, and the development effort evolved into the mature Farinha project that exists today.
+
+## RAG module content (demonstration)
+
+As part of a series of demonstrations of the potential of the artificial-intelligence technique known as *Retrieval-Augmented Generation* (RAG), the collection was used in an experiment with natural-language querying.
+
+The aim has always been to demonstrate RAG’s potential for documentary collections: the possibility of establishing an online reference service based on artificial intelligence and bringing the collection closer to the general public through a natural-language interface.
+
+With some luck, it may still be possible to test this demonstration RAG at [recortes.farinha.info](https://recortes.farinha.info). Soon, a RAG module will be incorporated into Farinha and this collection will be available through UFBA’s instance.
+
+## Arquivos da UFBA
+
+The Arquivos da UFBA project will leave the Farinha prototype behind and move to the current Farinha platform, available at [farinha.info](https://farinha.info). This change is a step forward for the project: it will make available not only the Newspaper Clippings Collection but will also inaugurate a new phase in the dissemination of University collections, expected by the end of 2027.
+
+The RAG module is expected to be activated for the Newspaper Clippings Collection as well as for other collections. This will require resources for the platform, but I am confident that it will be achieved.
+
+## Bonus: a mapping experiment
+
+On an ordinary day at LABHDUFBA, I received [a link](https://www.linkedin.com/posts/leofn-labhdufba_eric-brasil-ricardo-sodr%C3%A9-andrade-ugcPost-7490755498166722560-dFED) that led me to the idea of mapping the locations mentioned in the clippings. With the help of Hermes Agent and the GLM-5.2 LLM, this [map of the clippings](#mapa-recortes-modal){data-bs-toggle="modal" data-bs-target="#mapa-recortes-modal"} was created.
+
+With an agent’s help, this result took around 20 to 30 minutes — the embeddings already existed. There is a long road of possibilities ahead for LLMs, and the use of AI agents opens an immense horizon: an endless road that digital humanities has begun to travel.
+
+*Note: this text was written without the assistance of AI or agents, except for its English translation.*
+
+:::
+
+<div class="modal fade" id="mapa-recortes-modal" tabindex="-1" aria-labelledby="mapa-recortes-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen-lg-down modal-xl modal-dialog-centered">
+    <div class="modal-content" style="height: min(88vh, 900px);">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="mapa-recortes-modal-title">Mapa de menções nos Recortes de Jornais da UFBA</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body p-0">
+        <iframe title="Mapa de menções geográficas nos Recortes de Jornais da UFBA" src="../../files/anexos/2026.2/recortes-de-jornais-ufba/mapa-recortes.html" style="width:100%; height:100%; border:0;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
