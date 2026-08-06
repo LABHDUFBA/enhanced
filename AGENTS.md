@@ -22,7 +22,7 @@ O código-fonte editorial fica na raiz. O HTML publicado é gerado em `docs/`.
 - `styles-v2.css` e `styles.css`: estilos.
 - `_quarto.yml`: configuração geral do site.
 - `docs/`: saída renderizada; deve ser atualizada e versionada.
-- `.github/workflows/pages.yml`: build e publicação no GitHub Pages.
+- `.github/workflows/`: reservado para automações auxiliares; o Pages atualmente usa o builder legado.
 
 ## Adicionar um novo texto
 
@@ -78,24 +78,27 @@ Não versione caches temporários ou alterações não relacionadas produzidas p
 
 ## Publicação
 
-O GitHub Pages usa o workflow `.github/workflows/pages.yml`:
+O GitHub Pages está configurado para o builder legado servindo diretamente `main:/docs`.
+Isso é intencional: o workflow Actions/Pages ficou preso em `deployment_queued` no backend do GitHub, apesar de o build Quarto passar. O HTML renderizado em `docs/` deve ser versionado junto com cada alteração editorial.
 
-1. `actions/checkout@v4`;
-2. `quarto-dev/quarto-actions/setup@v2`, Quarto `1.7.30`;
-3. `quarto render`;
-4. `actions/upload-pages-artifact@v3` com `docs/`;
-5. `actions/deploy-pages@v4` no ambiente `github-pages`.
+Renderize localmente com Quarto `1.7.30` e publique o conteúdo renderizado:
 
-O Pages deve permanecer configurado com `build_type: workflow`, não com o builder legado `main:/docs`.
+```bash
+quarto render
+git diff --check
+git add docs <arquivos-fonte>
+git commit -m "..."
+git push origin main
+```
 
-Após `git push` para `main`, verifique em **Actions** a execução `Deploy Quarto site to GitHub Pages`. Pela API:
+Verifique a configuração Pages pela API e confirme `build_type: legacy` e `source.path: /docs` antes de diagnosticar um deploy:
 
 ```bash
 curl -H "Authorization: Bearer $GITHUB_TOKEN" \
-  https://api.github.com/repos/LABHDUFBA/enhanced/actions/runs?per_page=5
+  https://api.github.com/repos/LABHDUFBA/enhanced/pages
 ```
 
-Não declare publicação concluída enquanto o job `build` e o job `deploy` não estiverem `success` e o HTML público não refletir a mudança. Se `deploy-pages` repetir `deployment_queued`, verifique o ambiente `github-pages` e dispare um novo push; o workflow usa `cancel-in-progress: true`. Para cancelar/reexecutar diretamente pela API, o PAT precisa de `Actions: Read and write` além de `Contents: Read and write`.
+Não declare publicação concluída enquanto o HTML público não refletir a mudança. Para uma alteração editorial, valide HTTP `200`, o HTML público e os assets alterados. Não reintroduza `deploy-pages` sem antes confirmar que o backend de deployments do Pages voltou a processar a fila.
 
 ## Badge de visitantes
 
