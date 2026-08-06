@@ -100,6 +100,7 @@ With an agent’s help, this result took around 20 to 30 minutes — the embeddi
 
 :::
 
+```{=html}
 <div class="modal fade" id="mapa-recortes-modal" tabindex="-1" aria-labelledby="mapa-recortes-modal-title" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen-lg-down modal-xl modal-dialog-centered">
     <div class="modal-content" style="height: min(88vh, 900px);">
@@ -113,3 +114,4 @@ With an agent’s help, this result took around 20 to 30 minutes — the embeddi
     </div>
   </div>
 </div>
+```
