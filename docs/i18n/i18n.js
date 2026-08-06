@@ -87,6 +87,18 @@
     p.innerHTML = `${builtWith} <a href="${quartoHref}">${quartoText}</a>`;
   }
 
+  /* ── Visitor badge ─────────────────────────────────── */
+  function translateVisitorBadge(lang) {
+    const label = lang === 'pt' ? 'Visitantes' : 'Visitors';
+    document.querySelectorAll('[data-visitor-badge]').forEach(img => {
+      const url = new URL('https://hitscounter.dev/api/hit');
+      url.search = new URL(img.src).search;
+      url.searchParams.set('label', label);
+      img.src = url.href;
+      img.alt = label;
+    });
+  }
+
   /* ── Apply translations ─────────────────────────────── */
   function apply(t) {
     if (!t) return;
@@ -143,6 +155,7 @@
 
     // 8. Article language content
     applyArticleLanguage(t.html === 'pt' ? 'pt' : 'en');
+    translateVisitorBadge(t.html === 'pt' ? 'pt' : 'en');
   }
 
   function applyArticleLanguage(lang) {

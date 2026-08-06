@@ -38,5 +38,9 @@ listing:
 
 :::
 
+<div class="visitor-counter" style="text-align: center; margin: 1rem 0 2rem;">
+<img data-visitor-badge src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fenhanced.inovahd.org&label=Visitors&icon=people&color=%230a58ca&message=&style=flat&tz=America%2FSao_Paulo" alt="Visitors">
+</div>
+
 ::: {#recent-posts}
 :::
