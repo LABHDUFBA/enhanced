@@ -99,6 +99,23 @@
     });
   }
 
+  /* ── Listing dates ─────────────────────────────────── */
+  function translateListingDates(lang) {
+    const locale = lang === 'pt' ? 'pt-BR' : 'en-US';
+    const formatter = new Intl.DateTimeFormat(locale, {
+      day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'
+    });
+
+    document.querySelectorAll('.listing-date').forEach(el => {
+      const item = el.closest('[data-listing-date-sort]');
+      const timestamp = Number(item?.dataset.listingDateSort);
+      if (Number.isFinite(timestamp) && timestamp > 0) {
+        el.textContent = formatter.format(new Date(timestamp));
+        el.lang = locale;
+      }
+    });
+  }
+
   /* ── Apply translations ─────────────────────────────── */
   function apply(t) {
     if (!t) return;
@@ -156,6 +173,7 @@
     // 8. Article language content
     applyArticleLanguage(t.html === 'pt' ? 'pt' : 'en');
     translateVisitorBadge(t.html === 'pt' ? 'pt' : 'en');
+    translateListingDates(t.html === 'pt' ? 'pt' : 'en');
   }
 
   function applyArticleLanguage(lang) {
