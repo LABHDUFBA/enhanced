@@ -59,9 +59,14 @@
   "page-edicoes-title": "Edições",
   "page-edicoes-desc": "Todas as edições do Enhanced",
   "edicoes-intro": "O Enhanced publica edições semestrais. Veja abaixo todas as edições.",
+  "edition-2026.2-status": "Em breve.",
 
   "page-textos-title": "Textos",
   "page-textos-desc": "Todos os textos publicados no Enhanced",
+  "article-author-label": "Autor",
+  "article-date-label": "Data de Publicação",
+  "post-recortes-de-jornais-ufba-title": "Notas sobre a coleção Recortes de Jornais da UFBA",
+  "post-recortes-de-jornais-ufba-description": "Uma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.",
 
   "author-by": "por",
   "published-on": "Publicado em",

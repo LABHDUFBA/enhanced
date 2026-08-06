@@ -10,6 +10,7 @@
   const cache = {};
   const script = [...document.scripts].find(s => s.src.includes('/i18n/i18n.js'));
   const I18N_BASE = script ? new URL('./', script.src).href : 'https://enhanced.inovahd.org/i18n/';
+  const I18N_VERSION = '12';
 
   /* ── Detection ──────────────────────────────────────── */
   function detectLang() {
@@ -29,7 +30,7 @@
   async function load(lang) {
     if (cache[lang]) return cache[lang];
     try {
-      const r = await fetch(`${I18N_BASE}${lang}.json`);
+      const r = await fetch(`${I18N_BASE}${lang}.json?v=${I18N_VERSION}`);
       if (!r.ok) throw new Error(r.status);
       cache[lang] = await r.json();
       return cache[lang];
@@ -116,6 +117,43 @@
     });
   }
 
+  /* ── Article metadata ───────────────────────────────── */
+  function tagArticleMetadata() {
+    const labels = {
+      'Autor': 'article-author-label',
+      'Author': 'article-author-label',
+      'Data de Publicação': 'article-date-label',
+      'Publication Date': 'article-date-label'
+    };
+    document.querySelectorAll('.quarto-title-meta-heading').forEach(el => {
+      if (!el.dataset.i18n && labels[el.textContent.trim()]) {
+        el.dataset.i18n = labels[el.textContent.trim()];
+      }
+    });
+  }
+
+  /* ── Listing cards ─────────────────────────────────── */
+  function translateListingCards(t) {
+    if (!t) return;
+    document.querySelectorAll('a.quarto-grid-link').forEach(link => {
+      const match = new URL(link.href, document.baseURI).pathname.match(/\/posts\/([^/]+)/);
+      if (!match) return;
+      const prefix = `post-${match[1]}`;
+      const title = t[`${prefix}-title`];
+      const description = t[`${prefix}-description`];
+      if (!title || !description) return;
+
+      const card = link.querySelector('.quarto-grid-item');
+      const titleEl = card?.querySelector('.listing-title');
+      const descriptionEl = card?.querySelector('.listing-description');
+      if (titleEl) titleEl.textContent = title;
+      if (descriptionEl) {
+        const paragraph = descriptionEl.querySelector('p');
+        (paragraph || descriptionEl).textContent = description;
+      }
+    });
+  }
+
   /* ── Apply translations ─────────────────────────────── */
   function apply(t) {
     if (!t) return;
@@ -174,6 +212,7 @@
     applyArticleLanguage(t.html === 'pt' ? 'pt' : 'en');
     translateVisitorBadge(t.html === 'pt' ? 'pt' : 'en');
     translateListingDates(t.html === 'pt' ? 'pt' : 'en');
+    translateListingCards(t);
   }
 
   function applyArticleLanguage(lang) {
@@ -277,6 +316,7 @@
   /* ── Init ───────────────────────────────────────────── */
   async function init() {
     tagNavbar();
+    tagArticleMetadata();
     const lang = detectLang();
     const t = await load(lang);
     apply(t);

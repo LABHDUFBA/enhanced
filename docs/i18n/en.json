@@ -59,9 +59,14 @@
   "page-edicoes-title": "Issues",
   "page-edicoes-desc": "All issues of Enhanced",
   "edicoes-intro": "Enhanced publishes semiannual issues. See all issues below.",
+  "edition-2026.2-status": "Coming soon.",
 
   "page-textos-title": "Articles",
   "page-textos-desc": "All articles published in Enhanced",
+  "article-author-label": "Author",
+  "article-date-label": "Publication Date",
+  "post-recortes-de-jornais-ufba-title": "Notes on UFBA’s Newspaper Clippings Collection",
+  "post-recortes-de-jornais-ufba-description": "An overview of the digitization, access, and experiments involving UFBA Rectorate’s Newspaper Clippings Collection.",
 
   "author-by": "by",
   "published-on": "Published on",

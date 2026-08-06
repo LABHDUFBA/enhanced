@@ -15,4 +15,4 @@ toc: false
 2026.2
 :::
 
-Em breve.
+<span data-i18n="edition-2026.2-status">Em breve.</span>
