@@ -95,7 +95,7 @@ curl -H "Authorization: Bearer $GITHUB_TOKEN" \
   https://api.github.com/repos/LABHDUFBA/enhanced/actions/runs?per_page=5
 ```
 
-Não declare publicação concluída enquanto o job `build` e o job `deploy` não estiverem `success` e o HTML público não refletir a mudança.
+Não declare publicação concluída enquanto o job `build` e o job `deploy` não estiverem `success` e o HTML público não refletir a mudança. Se `deploy-pages` repetir `deployment_queued`, verifique o ambiente `github-pages` e dispare um novo push; o workflow usa `cancel-in-progress: true`. Para cancelar/reexecutar diretamente pela API, o PAT precisa de `Actions: Read and write` além de `Contents: Read and write`.
 
 ## Badge de visitantes
 
