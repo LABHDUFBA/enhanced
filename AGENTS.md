@@ -22,6 +22,8 @@ O código-fonte editorial fica na raiz. O HTML publicado é gerado em `docs/`.
 - `styles-v2.css` e `styles.css`: estilos.
 - `_quarto.yml`: configuração geral do site.
 - `docs/`: saída renderizada; deve ser atualizada e versionada.
+- `docs/.nojekyll`: marca a saída do Quarto como conteúdo estático; mantenha-o
+  versionado para impedir processamento Jekyll pelo Pages legado.
 - `.github/workflows/`: reservado para automações auxiliares; o Pages atualmente usa o builder legado.
 
 ## Adicionar um novo texto
@@ -81,6 +83,12 @@ Não versione caches temporários ou alterações não relacionadas produzidas p
 O GitHub Pages está configurado para o builder legado servindo diretamente `main:/docs`.
 Isso é intencional: o workflow Actions/Pages ficou preso em `deployment_queued` no backend do GitHub, apesar de o build Quarto passar. O HTML renderizado em `docs/` deve ser versionado junto com cada alteração editorial.
 
+O domínio `enhanced.inovahd.org` é configurado por `docs/CNAME`. Para o GitHub
+validar o domínio e renovar o certificado, o CNAME deve apontar diretamente para
+`labhdufba.github.io` e permanecer em **DNS only** na Cloudflare durante a
+validação. Depois de um build concluído, habilite HTTPS no Pages e confirme que
+HTTP redireciona para HTTPS.
+
 Renderize localmente com Quarto `1.7.30` e publique o conteúdo renderizado:
 
 ```bash
@@ -98,7 +106,14 @@ curl -H "Authorization: Bearer $GITHUB_TOKEN" \
   https://api.github.com/repos/LABHDUFBA/enhanced/pages
 ```
 
-Não declare publicação concluída enquanto o HTML público não refletir a mudança. Para uma alteração editorial, valide HTTP `200`, o HTML público e os assets alterados. Não reintroduza `deploy-pages` sem antes confirmar que o backend de deployments do Pages voltou a processar a fila.
+Após um push, acompanhe o build legado até `built`:
+
+```bash
+curl -H "Authorization: Bearer $GITHUB_TOKEN" \
+  https://api.github.com/repos/LABHDUFBA/enhanced/pages/builds/latest
+```
+
+Não declare publicação concluída enquanto o HTML público não refletir a mudança. Para uma alteração editorial, valide HTTP `200`, o redirecionamento HTTP → HTTPS, o HTML público e os assets alterados. Não reintroduza `deploy-pages` sem antes confirmar que o backend de deployments do Pages voltou a processar a fila.
 
 ## Badge de visitantes
 
