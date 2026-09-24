@@ -10,7 +10,7 @@
   const cache = {};
   const script = [...document.scripts].find(s => s.src.includes('/i18n/i18n.js'));
   const I18N_BASE = script ? new URL('./', script.src).href : 'https://enhanced.inovahd.org/i18n/';
-  const I18N_VERSION = '12';
+  const I18N_VERSION = '13';
 
   /* ── Detection ──────────────────────────────────────── */
   function detectLang() {

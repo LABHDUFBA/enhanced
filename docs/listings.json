@@ -2,12 +2,16 @@
   {
     "listing": "/textos.html",
     "items": [
+      "/posts/zotero-agentes-ia-pesquisa-bibliografica/index.html",
+      "/posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html",
       "/posts/recortes-de-jornais-ufba/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/zotero-agentes-ia-pesquisa-bibliografica/index.html",
+      "/posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html",
       "/posts/recortes-de-jornais-ufba/index.html"
     ]
   }

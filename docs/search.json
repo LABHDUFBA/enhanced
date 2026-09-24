@@ -1,5 +1,292 @@
 [
   {
+    "objectID": "textos.html",
+    "href": "textos.html",
+    "title": "Textos",
+    "section": "",
+    "text": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica\n\n\nComo o Zotero se tornou uma infraestrutura coletiva de pesquisa no LABHDUFBA e ganhou nova escala com agentes de IA.\n\n\n\nLeonardo F. Nascimento\n\n\nSep 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDos recortes ao RAG: uma construção de acervo com referência algorítmica\n\n\nComo os Recortes de Jornais da Reitoria da UFBA se tornaram um acervo pesquisável, das fontes preservadas ao RAG.\n\n\n\nRicardo Sodré Andrade\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotas sobre a coleção Recortes de Jornais da UFBA\n\n\nUma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 6, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#do-endnote-ao-zotero",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#do-endnote-ao-zotero",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Do EndNote ao Zotero",
+    "text": "Do EndNote ao Zotero\nSó conheci esse tipo de ferramenta no início do doutorado. Naquela época, meu orientador pagou e compartilhou comigo uma assinatura do EndNote. Passei a utilizá-lo para inserir referências nos documentos digitais que estava escrevendo.\nJá no final do doutorado, descobri o Zotero, um software gratuito e de código aberto voltado ao gerenciamento individual e colaborativo de referências bibliográficas.\nPara mim, essa mudança foi revolucionária. O Zotero permitia construir bibliotecas compartilhadas, organizar coletivamente um campo de estudos e manter acessível o conjunto de textos com os quais uma pesquisa dialoga."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#citar-é-participar-de-uma-conversa",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#citar-é-participar-de-uma-conversa",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Citar é participar de uma conversa",
+    "text": "Citar é participar de uma conversa\nA importância do Zotero está ligada ao sentido epistemológico da citação.\nA ciência é uma grande conversa. Dialogamos com a produção intelectual do passado e com o que está sendo produzido no presente. Concordamos com determinadas interpretações, refutamos outras, retomamos problemas antigos e formulamos novas perguntas.\nCitar significa situar uma afirmação nessa conversa. A referência identifica nossos interlocutores, explicita dívidas intelectuais e permite que outras pessoas reconstruam o caminho percorrido por um argumento. Debater, concordar e refutar fazem parte do substrato da citação.\nPor isso, uma biblioteca bibliográfica não é apenas um arquivo auxiliar. Ela materializa parte da orientação teórica e metodológica de uma pesquisa."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#uma-biblioteca-coletiva-no-labhdufba",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#uma-biblioteca-coletiva-no-labhdufba",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Uma biblioteca coletiva no LABHDUFBA",
+    "text": "Uma biblioteca coletiva no LABHDUFBA\nDesde então, o Zotero se tornou praticamente obrigatório nas pesquisas que desenvolvo e nas atividades do Laboratório de Humanidades Digitais da UFBA, o LABHDUFBA.\nPesquisadores em diferentes níveis de formação, da iniciação científica ao doutorado, utilizam a ferramenta. Costumo resumir essa regra de maneira bastante direta:\n\nEu não leio texto que não esteja no Zotero.\n\nA frase pode soar exagerada, mas expressa uma prática importante. Quando um texto entra no Zotero, ele deixa de ser um arquivo isolado no computador de alguém. Passa a integrar um acervo coletivo, pesquisável e organizado. Pode receber tags, notas, anexos e relações com outros documentos.\nHoje, mantemos uma biblioteca colaborativa ampla sobre humanidades digitais e áreas correlatas, como história digital, sociologia digital e ciência social computacional. Esse acervo sustenta parte de nossa orientação teórico-metodológica e preserva a memória intelectual das pesquisas desenvolvidas no laboratório."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#o-soterramento-de-dados",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#o-soterramento-de-dados",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "O soterramento de dados",
+    "text": "O soterramento de dados\nA produção acadêmica contemporânea enfrenta um problema cada vez mais evidente: a quantidade de material publicado supera nossa capacidade individual de acompanhar, organizar e ler tudo o que pode ser relevante.\nTenho chamado esse problema de soterramento de dados.\nHá muitos artigos, livros, relatórios, preprints e outros documentos sendo produzidos continuamente. Encontrar um texto relevante já é difícil. Mais difícil ainda é lembrar que ele existe, registrar por que ele importa e recuperá-lo no momento adequado.\nO problema não é apenas o acesso à informação. Precisamos criar condições para selecionar, organizar, relacionar e recuperar materiais em meio a um fluxo permanente de publicações.\nO Zotero já oferecia uma resposta parcial a esse problema. Ainda restava, porém, muito trabalho manual: revisar metadados, criar coleções, aplicar tags, localizar duplicações, produzir fichamentos e reorganizar bibliotecas acumuladas durante anos."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#a-integração-com-agentes-de-inteligência-artificial",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#a-integração-com-agentes-de-inteligência-artificial",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "A integração com agentes de inteligência artificial",
+    "text": "A integração com agentes de inteligência artificial\nNos últimos dois meses, graças ao trabalho de Lídia Belas, bolsista de iniciação científica do laboratório, integramos o Zotero aos nossos agentes de inteligência artificial.\nEssa integração produziu aquilo que considero uma segunda revolução do Zotero.\nA primeira mudança aparece na organização da biblioteca. Os agentes auxiliam na revisão de coleções, na aplicação de tags e na correção de informações incompletas ou incorretas nas referências. Tarefas que antes precisavam ser realizadas manualmente, item por item, agora podem ser executadas em escala.\nA segunda mudança diz respeito à incorporação de novas publicações. Artigos identificados como relevantes podem ser coletados, inseridos no Zotero e acompanhados de um fichamento inicial. Quando retornamos a esse material, já encontramos uma referência organizada, com informações que facilitam sua recuperação e contextualização.\nO fichamento produzido pelos agentes não encerra o trabalho intelectual. Ele prepara o material para a leitura, a verificação e a interpretação humanas. Os pesquisadores continuam responsáveis por avaliar argumentos, confrontar evidências, identificar limites e acrescentar os insights que surgem durante a leitura.\nA inteligência artificial amplia nossa capacidade de organização e recuperação. A construção do sentido continua sendo uma tarefa humana."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#uma-infraestrutura-de-pesquisa",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#uma-infraestrutura-de-pesquisa",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Uma infraestrutura de pesquisa",
+    "text": "Uma infraestrutura de pesquisa\nNão vou me alongar, neste texto, nos aspectos técnicos da integração entre o Zotero e os agentes de IA. O que importa, por enquanto, é a mudança na escala e na forma de trabalhar.\nO Zotero começou, para mim, como uma ferramenta para inserir citações em documentos. Depois, tornou-se o espaço de organização de uma biblioteca coletiva. Agora, integrado aos agentes de inteligência artificial, passa a funcionar como uma infraestrutura ativa de pesquisa: recebe, organiza e ajuda a recuperar um acervo em permanente expansão.\nÉ isso que chamo de segunda revolução do Zotero.\nPara a pesquisa que desenvolvemos no LABHDUFBA, esse é um caminho sem volta.\nObservação: este texto foi elaborado a partir de uma fala de Leonardo F. Nascimento, com auxílio do Hermes Agent na transcrição, na revisão e na tradução para o inglês."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#from-endnote-to-zotero",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#from-endnote-to-zotero",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "From EndNote to Zotero",
+    "text": "From EndNote to Zotero\nI first encountered this kind of tool at the beginning of my doctorate. At the time, my supervisor paid for an EndNote subscription and shared it with me. I began using it to insert references into the digital documents I was writing.\nNear the end of my doctorate, I discovered Zotero, a free and open-source tool for managing references individually or collaboratively.\nFor me, that change was revolutionary. Zotero made it possible to build shared libraries, collectively organize a field of study, and keep accessible the body of texts with which a research project is in dialogue."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#citation-means-joining-a-conversation",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#citation-means-joining-a-conversation",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Citation means joining a conversation",
+    "text": "Citation means joining a conversation\nZotero’s importance is tied to the epistemological meaning of citation.\nScience is a vast conversation. We engage with intellectual work from the past and with research being produced in the present. We agree with certain interpretations, reject others, revisit old problems, and formulate new questions.\nTo cite is to place a claim within that conversation. A reference identifies our interlocutors, acknowledges intellectual debts, and enables others to reconstruct the path followed by an argument. Debate, agreement, and refutation are part of the substance of citation.\nA bibliographic library is therefore more than an auxiliary archive. It gives material form to part of a research project’s theoretical and methodological orientation."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#a-shared-library-at-labhdufba",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#a-shared-library-at-labhdufba",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "A shared library at LABHDUFBA",
+    "text": "A shared library at LABHDUFBA\nSince then, Zotero has become practically mandatory in the research I conduct and in the activities of the Digital Humanities Laboratory at the Federal University of Bahia, LABHDUFBA.\nResearchers at different stages, from undergraduate research to the doctoral level, use the tool. I usually summarize this rule quite directly:\n\nI do not read a text that is not in Zotero.\n\nThe statement may sound exaggerated, but it expresses an important practice. When a text enters Zotero, it stops being an isolated file on someone’s computer. It becomes part of a shared, searchable, and organized collection. It can receive tags, notes, attachments, and links to other documents.\nWe now maintain a substantial collaborative library on digital humanities and related areas, including digital history, digital sociology, and computational social science. This collection supports part of our theoretical and methodological orientation while preserving the intellectual memory of the research developed in the laboratory."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#data-burial",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#data-burial",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Data burial",
+    "text": "Data burial\nContemporary academic production faces an increasingly visible problem: the volume of published material exceeds our individual capacity to follow, organize, and read everything that may be relevant.\nI have been calling this problem data burial.\nArticles, books, reports, preprints, and other documents are being produced continuously. Finding a relevant text is already difficult. Remembering that it exists, recording why it matters, and retrieving it at the right moment is harder still.\nThe problem is not simply access to information. We need conditions for selecting, organizing, relating, and retrieving materials amid a continuous flow of publications.\nZotero already offered a partial response to this problem. A considerable amount of manual work nevertheless remained: reviewing metadata, creating collections, applying tags, finding duplicates, preparing reading notes, and reorganizing libraries accumulated over many years."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#integrating-artificial-intelligence-agents",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#integrating-artificial-intelligence-agents",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "Integrating artificial intelligence agents",
+    "text": "Integrating artificial intelligence agents\nOver the past two months, thanks to the work of Lídia Belas, an undergraduate research fellow at the laboratory, we have integrated Zotero with our artificial intelligence agents.\nThis integration has produced what I consider a second Zotero revolution.\nThe first change concerns library organization. Agents assist with reviewing collections, applying tags, and correcting incomplete or inaccurate reference data. Tasks that previously had to be performed manually, one item at a time, can now be carried out at scale.\nThe second change concerns the incorporation of new publications. Articles identified as relevant can be collected, added to Zotero, and accompanied by an initial reading note. When we return to this material, we find an organized reference with information that facilitates retrieval and contextualization.\nThe notes produced by agents do not conclude the intellectual work. They prepare the material for human reading, verification, and interpretation. Researchers remain responsible for evaluating arguments, confronting evidence, identifying limitations, and adding the insights that emerge during reading.\nArtificial intelligence expands our capacity for organization and retrieval. The construction of meaning remains a human task."
+  },
+  {
+    "objectID": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#a-research-infrastructure",
+    "href": "posts/zotero-agentes-ia-pesquisa-bibliografica/index.html#a-research-infrastructure",
+    "title": "Zotero, agentes de IA e a segunda revolução da pesquisa bibliográfica",
+    "section": "A research infrastructure",
+    "text": "A research infrastructure\nI will not discuss the technical details of the integration between Zotero and AI agents here. What matters for now is the change in scale and in our way of working.\nFor me, Zotero began as a tool for inserting citations into documents. It later became the organizing space for a shared library. Now, integrated with artificial intelligence agents, it operates as an active research infrastructure: receiving, organizing, and helping us retrieve a continuously expanding collection.\nThis is what I call Zotero’s second revolution.\nFor the research we conduct at LABHDUFBA, there is no turning back.\nNote: this article was developed from an oral account by Leonardo F. Nascimento, with Hermes Agent assisting in transcription, editing, and translation into English."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#um-acervo-não-começa-no-chatbot-baseado-em-ia",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#um-acervo-não-começa-no-chatbot-baseado-em-ia",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Um acervo não começa no chatbot [baseado em IA]",
+    "text": "Um acervo não começa no chatbot [baseado em IA]\nHoje é comum apresentar e reconhecer um sistema de inteligência artificial pela sua interface: uma caixa de pergunta, uma resposta e “um jeitão” que se repete nas diversas plataformas de IA. No caso dos Recortes de Jornais da Reitoria da UFBA, o trabalho começou muito antes disso, mas continuamos a experimentar para descobrir formas diferentes de fazer a mesma coisa: um chatbot de referência algorítmica, ou como seria mais fácil dizer, baseado em inteligência artificial.\nÉ por isso que a interface de chatbot não é o centro da proposta. Ela é uma forma simples de oferecer um sistema de referência automatizado: o leitor formula uma pergunta em linguagem corrente, o sistema localiza as unidades mais relevantes, organiza uma resposta provisória (pela própria natureza das respostas algorítimocas) e mostra de onde cada afirmação veio. Quando o acervo não sustenta uma resposta, o comportamento esperado é interromper a fluência e dizer que não há evidência suficiente. O chatbot pode ampliar o acesso ao acervo, mas não substitui a descrição, a curadoria ou a responsabilidade institucional.\nA coleção, chamada Recortes de Jornais da Reitoria da UFBA, reúne 12.583 registros, distribuídos por aproximadamente quatorze títulos e concentrados nas décadas de 1980 e 1990. Esse acervo foi criado e está custodiado pela Universidade Federal da Bahia (UFBA, Brasil), mais precisamente no Sistema de Bibliotecas, na Biblioteca Universitária Reitor Macedo Costa, no Lugares de Memória.\nAntes de qualquer RAG, houve o trabalho silencioso e, agora, quase tradicional, de digitalização. Isso ocorreu por volta de 2022 e 2023. Os recortes deixaram de existir apenas como peças físicas consultadas uma a uma e passaram a ser representados por imagens digitais, PDFs e texto obtido por OCR. Essa conversão ampliou o acesso, mas também criou novas tarefas: relacionar cada imagem ao seu registro, conferir datas e páginas, conservar o arquivo original e reconhecer que o OCR é uma representação, não o documento inteiro. Algumas situações impediram que 100% do acervo recebesse 100% do tratamento adequado, mas temos uma quase totalidade.\nEntão, imagens, PDFs e texto obtido por OCR estavam começando a existir em paralelo ao advento das LLM comercialmente disponíveis, mas não haviam sido preparados para uma busca semântica. Foi preciso tratar os dados, testar hipóteses e rejeitar soluções que pareciam funcionar, mas não eram fiéis às práticas mais alinhadas com a teoria e a busca de bons procedimentos arquivísticos."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-1-o-rag-ingênuo",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-1-o-rag-ingênuo",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Fase 1: o RAG ingênuo",
+    "text": "Fase 1: o RAG ingênuo\nA primeira versão foi uma prova de conceito com busca exclusivamente vetorial. As notícias eram separadas em documentos individuais e representadas por um modelo treinado principalmente para inglês. As respostas podiam apontar para periódico, data, caderno, página e PDF, mas ainda não havia uma política explícita de proveniência nem uma regra confiável para admitir que uma informação não estava no acervo.\nEssa versão foi útil porque tornou visíveis os problemas. Um modelo pode responder com fluência mesmo quando a recuperação foi ruim. Uma busca vetorial pode perder uma ocorrência lexical importante. Uma data malformada pode impedir o relacionamento entre uma notícia e sua edição. E uma resposta aparentemente correta pode ter sido construída com conhecimento externo, sem base no recorte consultado."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-2-limpar-sem-apagar",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-2-limpar-sem-apagar",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Fase 2: limpar sem apagar",
+    "text": "Fase 2: limpar sem apagar\nA etapa seguinte foi uma auditoria do corpus. O princípio foi simples: as fontes originais não seriam alteradas. O banco, os PDFs, as imagens e o OCR bruto permaneceram preservados. Toda correção ou melhoria foi gravada em artefatos derivados, com identificação e possibilidade de conferência.\nA auditoria confirmou 12.583 registros canônicos, 12.583 pares de imagem e PDF, nenhum arquivo ausente e nenhum ID duplicado. Também encontrou variações históricas nos nomes das chaves do JSON, como diferentes formas de escrever título, subtítulo e corpo da notícia. Em vez de apagar essas diferenças, a pipeline passou a reconhecê-las e a preservar as chaves originais.\nA primeira tentativa de estruturação automática foi permissiva demais. Em uma amostra de quarenta registros, o modelo corrigiu erros do OCR, completou palavras e, em alguns casos, produziu uma espécie de reconstrução editorial. O resultado foi rejeitado. Para um acervo histórico, uma transcrição imperfeita, mas rastreável, é preferível a uma versão mais bonita que introduz palavras inexistentes na fonte.\nUma configuração mais estrita teve comportamento diferente. Com o texto bruto como referência, o modelo recebeu autorização para organizar, não para corrigir ou completar. Depois de uma revisão automática e outra assistida, a camada de estruturação foi consolidada em 942 registros de baixa cobertura. Três casos visualmente ambíguos permaneceram separados até que as imagens fossem examinadas.\nTodas essas dificuldades foram sendo encontradas em momentos diferentes das experimentações, mas cada uma encontrada e resolvida melhorava o corpo de representantes informacionais e objetos digitais."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-3-transformar-texto-em-unidades-pesquisáveis",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-3-transformar-texto-em-unidades-pesquisáveis",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Fase 3: transformar texto em unidades pesquisáveis",
+    "text": "Fase 3: transformar texto em unidades pesquisáveis\nCom a estruturação aprovada, cada notícia passou a ser uma unidade de recuperação. O corpus consolidado ficou com 29.052 unidades. Essa decisão preservou uma relação direta entre o resultado da busca e a notícia que aparece no fólio, sem transformar uma página inteira em um bloco difícil de citar.\nDepois, cada unidade foi convertida em uma representação vetorial semântica usando um modelo multilíngue da família Qwen. Essas representações permitiram localizar conteúdos relacionados por sentido, mesmo quando a consulta não repetia literalmente as palavras do documento. Os dois índices permaneceram separados e, no estado consolidado do projeto, tanto o BM25 quanto o RAG v2 estavam concluídos.\nA busca híbrida combina as duas estratégias. O BM25 ajuda quando a consulta repete o vocabulário do documento; a busca vetorial, quando a pergunta usa uma paráfrase. No teste, a expressão “portaria da fome” recuperou material relacionado a ensino pago sem depender apenas da coincidência das palavras."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-4-rag-com-proveniência-e-abstinência",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-4-rag-com-proveniência-e-abstinência",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Fase 4: RAG com proveniência e abstinência",
+    "text": "Fase 4: RAG com proveniência e abstinência\nNo protótipo avançado do RAG, o projeto usou o UVA Archival AI Protocol como referência, especialmente para a exigência de proveniência em nível de item.[1] A resposta não deveria apenas parecer informativa. Ela deveria indicar quais unidades documentais foram usadas e permitir que o leitor voltasse à notícia de origem.\nO RAG passou a registrar o uso, verificar campos de proveniência e testar níveis de acesso para diferentes usos de inteligência artificial. Essa camada de governança foi desenvolvida no protótipo avançado; a versão pública do RAG v2 manteve principalmente a busca híbrida, as citações e a abstinência (ou seja, ele não cria respostas na ausência de evidências documentais).\nNa avaliação final, o pipeline híbrido produziu 64 citações verificadas em 64 citações, sem referências inventadas. Também acertou as duas perguntas do protocolo que não tinham cobertura documental. A avaliação foi qualitativa, com dez perguntas fixas, e não deve ser confundida com um benchmark estatístico. Ainda assim, ela mostrou que a rastreabilidade pode ser testada concretamente."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-5-sair-da-prova-de-conceito",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#fase-5-sair-da-prova-de-conceito",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Fase 5: sair da prova de conceito",
+    "text": "Fase 5: sair da prova de conceito\nA versão 2 reuniu corpus, índices, perguntas de avaliação e resultados em um conjunto autocontido. O RAG deixou de ser apenas uma aplicação de teste. A interface ganhou dois modos de consulta: resposta com IA e citações, ou uma lista de recortes para exame direto.\nEm 31 de agosto de 2026, a nova versão foi colocada em produção em recortes.farinha.info (https://recortes.farinha.info). A aplicação anterior foi preservada, mas desativada. A passagem para produção revelou problemas de datas, abstinência, limite de contexto e respostas vazias. Resolvidos, eles lembraram que a infraestrutura também participa da pesquisa: uma boa ideia só se torna útil quando funciona de modo estável."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#o-que-permanece-igual",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#o-que-permanece-igual",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "O que permanece igual",
+    "text": "O que permanece igual\nEmbora as ferramentas tenham mudado, o princípio central permanece: preservar as fontes e produzir camadas derivadas. Cada transformação deve ser rastreável, cada resposta deve permitir o retorno ao documento de origem e o sistema deve admitir quando não encontrou evidência. A velocidade ajuda, mas não substitui a validação.\nO resultado não é apenas um chatbot para fazer perguntas a um fundo arquivístico ou coleção. É uma sequência de decisões sobre descrição, preservação, recuperação, proveniência e controle. O RAG aparece no fim da cadeia, mas a qualidade da resposta depende de tudo o que veio antes."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#nota-de-método",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#nota-de-método",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Nota de método",
+    "text": "Nota de método\nEste texto foi elaborado a partir dos relatórios operacionais, manifestos, registros de execução e artefatos de avaliação do projeto Recortes da UFBA.\n[1] Leo S. Lo, The University of Virginia Archival AI Protocol, versão 1.1, DOI 10.18130/5dqf-9w86 (https://doi.org/10.18130/5dqf-9w86).\nObs: Esse texto foi preparado com ajuda do Hermes Agent, usando os modelos gpt-5.6-luna e gpt-5.6-sol."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#an-archive-does-not-begin-with-a-chatbot",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#an-archive-does-not-begin-with-a-chatbot",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "An archive does not begin with a chatbot",
+    "text": "An archive does not begin with a chatbot\nIt is common to present an artificial intelligence system through its interface: a question box, an answer, and a few citations. The UFBA Rector’s Office Newspaper Clippings project began much earlier. That is why the chatbot interface is not the center of the proposal. It is a simple way to offer an automated reference system: the reader asks a question in ordinary language, the system locates the most relevant units, organizes a provisional answer, and shows where each claim came from. When the collection does not support an answer, the expected behavior is to interrupt fluency and say that there is insufficient evidence. A chatbot can broaden access to a collection, but it does not replace description, curation, or institutional responsibility.\nThe collection, officially called Recortes de Jornais da Reitoria da UFBA, contains 12,583 records, distributed across approximately fourteen titles and concentrated in the 1980s and 1990s. In Farinha’s archival arrangement, it belongs under UFBA &gt; Library System &gt; Reitor Macedo Costa University Library &gt; Places of Memory. It was separated from the Carlos Ott Card Index and other holdings, an important distinction: these are clippings, not manuscripts.\nBefore any RAG, there was the quiet work of digitization. The clippings were no longer only physical pieces consulted one by one. They became digital images, PDFs, and OCR text. This conversion broadened access, but it also created new tasks: linking each image to its record, checking dates and pages, preserving the original file, and recognizing that OCR is a representation, not the entire document. The data had to be audited, hypotheses tested, and solutions rejected when they looked useful but were not faithful to the sources."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-1-the-naive-rag",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-1-the-naive-rag",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Phase 1: the naive RAG",
+    "text": "Phase 1: the naive RAG\nThe first version was a proof of concept using vector-only retrieval. Articles were separated into individual documents and represented with a model trained mainly for English. Answers could point to newspaper, date, section, page, and PDF, but there was no explicit provenance policy or reliable rule for admitting that the collection did not contain an answer.\nThat version was useful because it exposed the problems. A model can answer fluently even when retrieval was poor. Vector search can miss an important lexical occurrence. A malformed date can prevent a story from being related to its issue. And an apparently correct answer may have been built from outside knowledge rather than from the clipping being queried."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-2-cleaning-without-erasing",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-2-cleaning-without-erasing",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Phase 2: cleaning without erasing",
+    "text": "Phase 2: cleaning without erasing\nThe next step was a corpus audit. The principle was simple: original sources would not be changed. The database, PDFs, images, and raw OCR remained preserved. Every correction or improvement was written to a derived artifact, with identification and a way to check it.\nThe audit confirmed 12,583 canonical records, 12,583 image and PDF pairs, no missing files, and no duplicate IDs. It also found historical variations in JSON key names, including different forms for title, subtitle, and article body. Rather than deleting those differences, the pipeline learned to recognize them while preserving the original keys.\nThe first automatic structuring attempt was too permissive. In a sample of forty records, the model corrected OCR errors, completed words, and in some cases produced a kind of editorial reconstruction. The result was rejected. For a historical collection, an imperfect but traceable transcription is preferable to a polished version that introduces words absent from the source.\nA stricter configuration behaved differently. With the raw text as its reference, the model was allowed to organize, not to correct or complete. After automatic and assisted review, the low-coverage structuring layer was consolidated in 942 records. Three visually ambiguous cases remained separate until the images could be examined."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-3-turning-text-into-searchable-units",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-3-turning-text-into-searchable-units",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Phase 3: turning text into searchable units",
+    "text": "Phase 3: turning text into searchable units\nOnce structuring was approved, each article became a retrieval unit. As consolidated on September 1, 2026, the corpus contained 29,052 units. This decision preserved a direct relationship between a search result and the story on the folio, rather than turning an entire page into a difficult-to-cite block.\nA BM25 index was built first, which is well suited to locating words and expressions that occur literally in the OCR. Multilingual representations were then generated for search by meaning. The two indexes remained separate and, in the project’s consolidated state, both BM25 and RAG v2 were complete.\nHybrid retrieval combines both strategies. BM25 helps when a query repeats the document’s vocabulary; vector search helps when the question uses a paraphrase. In testing, the expression “portaria da fome” retrieved material related to paid education without relying only on exact word matches."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-4-rag-with-provenance-and-abstention",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-4-rag-with-provenance-and-abstention",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Phase 4: RAG with provenance and abstention",
+    "text": "Phase 4: RAG with provenance and abstention\nIn the advanced RAG prototype, the project used the UVA Archival AI Protocol as a reference, especially its requirement for item-level provenance.[1] The answer should not merely sound informative. It should indicate which documentary units were used and allow the reader to return to the source story.\nThe RAG began to log usage, verify provenance fields, and test access levels for different forms of artificial intelligence use. This governance layer was developed in the advanced prototype; the public RAG v2 mainly retained hybrid retrieval, citations, and documented abstention.\nIn the final evaluation, the hybrid pipeline produced 64 verified citations out of 64, with no invented references. It also correctly handled the two protocol questions that had no documentary coverage. The evaluation was qualitative, using ten fixed questions, and should not be mistaken for a statistical benchmark. It nevertheless showed that traceability can be tested concretely."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-5-leaving-the-proof-of-concept",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#phase-5-leaving-the-proof-of-concept",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Phase 5: leaving the proof of concept",
+    "text": "Phase 5: leaving the proof of concept\nVersion 2 brought the corpus, indexes, evaluation questions, and results into a self-contained set. The RAG was no longer only a test application. The interface gained two query modes: an AI answer with citations, or a list of clippings for direct inspection.\nOn August 31, 2026, the new version went into production at recortes.farinha.info. The previous application was preserved but deactivated. Moving into production exposed problems with dates, abstention, context limits, and empty responses. Resolving them was a reminder that infrastructure is also part of the research: a good idea only becomes useful when it works reliably."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#what-remains-constant",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#what-remains-constant",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "What remains constant",
+    "text": "What remains constant\nAlthough the tools changed, the central principle remains: preserve the sources and produce derived layers. Every transformation must be traceable, every answer must lead back to the source document, and the system must admit when it found no evidence. Speed helps, but it does not replace validation.\nThe result is not simply a chatbot for asking questions about an archive. It is a sequence of decisions about description, preservation, retrieval, provenance, and control. RAG appears at the end of the chain, but answer quality depends on everything that came before it."
+  },
+  {
+    "objectID": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#method-note",
+    "href": "posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/index.html#method-note",
+    "title": "Dos recortes ao RAG: uma construção de acervo com referência algorítmica",
+    "section": "Method note",
+    "text": "Method note\nThis text was prepared from operational reports, manifests, execution logs, and evaluation artifacts for the UFBA Clippings project.\nThis text was prepared with help from Hermes Agent, using the gpt-5.6-luna and gpt-5.6-sol models.\nThe reference used for the UVA Archival AI Protocol is Leo S. Lo, The University of Virginia Archival AI Protocol, version 1.1, DOI 10.18130/5dqf-9w86."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enhanced",
+    "section": "",
+    "text": "Enhanced\n\nHumanidades Digitais e Inteligência Artificial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZotero, agentes de IA e a segunda revolução da pesquisa bibliográfica\n\n\nComo o Zotero se tornou uma infraestrutura coletiva de pesquisa no LABHDUFBA e ganhou nova escala com agentes de IA.\n\n\n\nLeonardo F. Nascimento\n\n\nSep 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDos recortes ao RAG: uma construção de acervo com referência algorítmica\n\n\nComo os Recortes de Jornais da Reitoria da UFBA se tornaram um acervo pesquisável, das fontes preservadas ao RAG.\n\n\n\nRicardo Sodré Andrade\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotas sobre a coleção Recortes de Jornais da UFBA\n\n\nUma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 6, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "corpo-editorial.html",
+    "href": "corpo-editorial.html",
+    "title": "Corpo Editorial",
+    "section": "",
+    "text": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado."
+  },
+  {
+    "objectID": "corpo-editorial.html#corpo-editorial",
+    "href": "corpo-editorial.html#corpo-editorial",
+    "title": "Corpo Editorial",
+    "section": "Corpo Editorial",
+    "text": "Corpo Editorial\n\n\nLN\n\n\n\nLeonardo F. Nascimento\n\n\nCoordenador do LABHDUFBA\n\n\nAnalista no CADE/MJ · Doutor em Sociologia · PPGCS/UFBA\n\n\n\n\n\nEB\n\n\n\nEric Brasil\n\n\nVice-coordenador do LABHDUFBA\n\n\nProfessor da UNILAB (IHLM) · Doutor em História (UFF)\n\n\n\n\n\nRS\n\n\n\nRicardo Sodré Andrade\n\n\nMembro do LABHDUFBA\n\n\nChefe do Escritório Regional Nordeste do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA) · feudo.org\n\n\n\n\n\nR\n\n\n\nRosana Moore\n\n\nMembro do LABHDUFBA\n\n\nDoutora em Sociologia (IESP/UERJ)\n\n\n\n\n\nBD\n\n\n\nBruno Durães\n\n\nMembro do LABHDUFBA\n\n\nProfessor Associado de Sociologia na UFRJ · Doutor em Ciências Sociais (Unicamp)\n\n\n\n\n\nT\n\n\n\nTarssio Barreto\n\n\nMembro do LABHDUFBA\n\n\nMestre em Ambiente, Água e Saneamento · BIT Analytics\n\n\n\n\n\nLC\n\n\n\nLetícia Cesarino\n\n\nMembro do LABHDUFBA\n\n\nProfessora da UFSC · Doutora em Antropologia (UC Berkeley)\n\n\n\nPaís de publicação: Brasil"
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "labhd.ufba.br"
+  },
+  {
+    "objectID": "contato.html#site",
+    "href": "contato.html#site",
+    "title": "Contato",
+    "section": "",
+    "text": "labhd.ufba.br"
+  },
+  {
+    "objectID": "contato.html#e-mail",
+    "href": "contato.html#e-mail",
+    "title": "Contato",
+    "section": "E-mail",
+    "text": "E-mail\nlabhd at ufba dot br"
+  },
+  {
+    "objectID": "edicoes.html",
+    "href": "edicoes.html",
+    "title": "Edições",
+    "section": "",
+    "text": "O Enhanced publica edições semestrais. Veja abaixo todas as edições."
+  },
+  {
+    "objectID": "edicoes.html#section",
+    "href": "edicoes.html#section",
+    "title": "Edições",
+    "section": "2026.2",
+    "text": "2026.2\n\n2026.2\n\nEm breve."
+  },
+  {
+    "objectID": "normas.html",
+    "href": "normas.html",
+    "title": "Normas para Publicação",
+    "section": "",
+    "text": "O Enhanced aceita submissões de textos entre 500 e 4000 palavras, em português ou inglês, sobre temas relacionados a humanidades digitais, inteligência artificial, agentes, desinformação, arquivologia computacional e temas afins."
+  },
+  {
+    "objectID": "normas.html#formato",
+    "href": "normas.html#formato",
+    "title": "Normas para Publicação",
+    "section": "Formato",
+    "text": "Formato\n\nTextos em markdown, entre 500 e 4000 palavras. Incluir título, resumo de até 150 caracteres e nome do autor com filiação institucional."
+  },
+  {
+    "objectID": "normas.html#processo-editorial",
+    "href": "normas.html#processo-editorial",
+    "title": "Normas para Publicação",
+    "section": "Processo Editorial",
+    "text": "Processo Editorial\n\nApós submissão, o texto é distribuído ao corpo editorial, que avalia a curadoria e aprova ou não a publicação. A revisão dos textos é responsabilidade dos autores. Com 3 aprovações, o texto é publicado automaticamente."
+  },
+  {
+    "objectID": "normas.html#idiomas",
+    "href": "normas.html#idiomas",
+    "title": "Normas para Publicação",
+    "section": "Idiomas",
+    "text": "Idiomas\n\nOs textos são publicados em português e inglês. O autor pode escrever em qualquer um dos idiomas; a versão no outro idioma é gerada e revisada pelo autor antes da publicação."
+  },
+  {
     "objectID": "posts/recortes-de-jornais-ufba/index.html#protótipo-do-farinha",
     "href": "posts/recortes-de-jornais-ufba/index.html#protótipo-do-farinha",
     "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
@@ -54,96 +341,5 @@
     "title": "Notas sobre a coleção Recortes de Jornais da UFBA",
     "section": "Bonus: a mapping experiment",
     "text": "Bonus: a mapping experiment\nOn an ordinary day at LABHDUFBA, I received a link that led me to the idea of mapping the locations mentioned in the clippings. With the help of Hermes Agent and the GLM-5.2 LLM, this map of the clippings was created.\nWith an agent’s help, this result took around 20 to 30 minutes — the embeddings already existed. There is a long road of possibilities ahead for LLMs, and the use of AI agents opens an immense horizon: an endless road that digital humanities has begun to travel.\nNote: this text was written without the assistance of AI or agents, except for its English translation."
-  },
-  {
-    "objectID": "normas.html",
-    "href": "normas.html",
-    "title": "Normas para Publicação",
-    "section": "",
-    "text": "O Enhanced aceita submissões de textos entre 500 e 4000 palavras, em português ou inglês, sobre temas relacionados a humanidades digitais, inteligência artificial, agentes, desinformação, arquivologia computacional e temas afins."
-  },
-  {
-    "objectID": "normas.html#formato",
-    "href": "normas.html#formato",
-    "title": "Normas para Publicação",
-    "section": "Formato",
-    "text": "Formato\n\nTextos em markdown, entre 500 e 4000 palavras. Incluir título, resumo de até 150 caracteres e nome do autor com filiação institucional."
-  },
-  {
-    "objectID": "normas.html#processo-editorial",
-    "href": "normas.html#processo-editorial",
-    "title": "Normas para Publicação",
-    "section": "Processo Editorial",
-    "text": "Processo Editorial\n\nApós submissão, o texto é distribuído ao corpo editorial, que avalia a curadoria e aprova ou não a publicação. A revisão dos textos é responsabilidade dos autores. Com 3 aprovações, o texto é publicado automaticamente."
-  },
-  {
-    "objectID": "normas.html#idiomas",
-    "href": "normas.html#idiomas",
-    "title": "Normas para Publicação",
-    "section": "Idiomas",
-    "text": "Idiomas\n\nOs textos são publicados em português e inglês. O autor pode escrever em qualquer um dos idiomas; a versão no outro idioma é gerada e revisada pelo autor antes da publicação."
-  },
-  {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "labhd.ufba.br"
-  },
-  {
-    "objectID": "contato.html#site",
-    "href": "contato.html#site",
-    "title": "Contato",
-    "section": "",
-    "text": "labhd.ufba.br"
-  },
-  {
-    "objectID": "contato.html#e-mail",
-    "href": "contato.html#e-mail",
-    "title": "Contato",
-    "section": "E-mail",
-    "text": "E-mail\nlabhd at ufba dot br"
-  },
-  {
-    "objectID": "edicoes.html",
-    "href": "edicoes.html",
-    "title": "Edições",
-    "section": "",
-    "text": "O Enhanced publica edições semestrais. Veja abaixo todas as edições."
-  },
-  {
-    "objectID": "edicoes.html#section",
-    "href": "edicoes.html#section",
-    "title": "Edições",
-    "section": "2026.2",
-    "text": "2026.2\n\n2026.2\n\nEm breve."
-  },
-  {
-    "objectID": "textos.html",
-    "href": "textos.html",
-    "title": "Textos",
-    "section": "",
-    "text": "Notas sobre a coleção Recortes de Jornais da UFBA\n\n\nUma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 6, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Enhanced",
-    "section": "",
-    "text": "Enhanced\n\nHumanidades Digitais e Inteligência Artificial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotas sobre a coleção Recortes de Jornais da UFBA\n\n\nUma apresentação da digitalização, do acesso e dos experimentos com a coleção Recortes de Jornais da Reitoria da UFBA.\n\n\n\nRicardo Sodré Andrade\n\n\nAug 6, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "corpo-editorial.html",
-    "href": "corpo-editorial.html",
-    "title": "Corpo Editorial",
-    "section": "",
-    "text": "O corpo editorial do Enhanced é responsável pela curadoria e aprovação dos textos publicados. A revisão dos textos é responsabilidade dos autores. Cada texto precisa de 3 aprovações do corpo editorial para ser publicado."
-  },
-  {
-    "objectID": "corpo-editorial.html#corpo-editorial",
-    "href": "corpo-editorial.html#corpo-editorial",
-    "title": "Corpo Editorial",
-    "section": "Corpo Editorial",
-    "text": "Corpo Editorial\n\n\nLN\n\n\n\nLeonardo F. Nascimento\n\n\nCoordenador do LABHDUFBA\n\n\nAnalista no CADE/MJ · Doutor em Sociologia · PPGCS/UFBA\n\n\n\n\n\nEB\n\n\n\nEric Brasil\n\n\nVice-coordenador do LABHDUFBA\n\n\nProfessor da UNILAB (IHLM) · Doutor em História (UFF)\n\n\n\n\n\nRS\n\n\n\nRicardo Sodré Andrade\n\n\nMembro do LABHDUFBA\n\n\nChefe do Escritório Regional Nordeste do Arquivo Nacional do Brasil · Mestre em Ciência da Informação (PPGCI/UFBA) · feudo.org\n\n\n\n\n\nR\n\n\n\nRosana Moore\n\n\nMembro do LABHDUFBA\n\n\nDoutora em Sociologia (IESP/UERJ)\n\n\n\n\n\nBD\n\n\n\nBruno Durães\n\n\nMembro do LABHDUFBA\n\n\nProfessor Associado de Sociologia na UFRJ · Doutor em Ciências Sociais (Unicamp)\n\n\n\n\n\nT\n\n\n\nTarssio Barreto\n\n\nMembro do LABHDUFBA\n\n\nMestre em Ambiente, Água e Saneamento · BIT Analytics\n\n\n\n\n\nLC\n\n\n\nLetícia Cesarino\n\n\nMembro do LABHDUFBA\n\n\nProfessora da UFSC · Doutora em Antropologia (UC Berkeley)\n\n\n\nPaís de publicação: Brasil"
   }
 ]

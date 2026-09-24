@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.30">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="LABHDUFBA">
+<meta name="description" content="Enhanced — Digital Humanities and Artificial Intelligence. Blog do LABHDUFBA.">
+
+<title>Dos recortes ao RAG: uma construção de acervo com referência algorítmica – Enhanced</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../files/images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0747b5892f3cf0e4b816e4db5bebfa79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<!-- Enhanced i18n: language detection + selector -->
+<!-- Adapted from feudo.org i18n system -->
+<!-- Quarto navbar with dark background -->
+<style>
+/* Styles are in styles.css for the lang-selector */
+</style>
+<script src="https://enhanced.inovahd.org/i18n/i18n.js?v=13"></script>
+
+
+<link rel="stylesheet" href="../../styles-v2.css">
+<meta property="og:title" content="Dos recortes ao RAG: uma construção de acervo com referência algorítmica – Enhanced">
+<meta property="og:description" content="Como os Recortes de Jornais da Reitoria da UFBA se tornaram um acervo pesquisável, das fontes preservadas ao RAG.">
+<meta property="og:image" content="https://enhanced.inovahd.org/posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/files/images/recortes-ufba.png">
+<meta property="og:site_name" content="Enhanced">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1536">
+<meta name="twitter:title" content="Dos recortes ao RAG: uma construção de acervo com referência algorítmica – Enhanced">
+<meta name="twitter:description" content="Como os Recortes de Jornais da Reitoria da UFBA se tornaram um acervo pesquisável, das fontes preservadas ao RAG.">
+<meta name="twitter:image" content="https://enhanced.inovahd.org/posts/dos-recortes-ao-rag-uma-construcao-de-acervo-com-referencia-algoritmica/files/images/recortes-ufba.png">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1536">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Enhanced</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sobre" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sobre</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sobre">
+        <li>
+    <a class="dropdown-item" href="../../sobre.html">
+ <span class="dropdown-text">Apresentação</span></a>
+  </li>
+        <li>
+    <a class="dropdown-item" href="../../corpo-editorial.html">
+ <span class="dropdown-text">Corpo Editorial</span></a>
+  </li>
+        <li>
+    <a class="dropdown-item" href="../../normas.html">
+ <span class="dropdown-text">Normas</span></a>
+  </li>
+        <li>
+    <a class="dropdown-item" href="../../contato.html">
+ <span class="dropdown-text">Contato</span></a>
+  </li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../edicoes.html">
+<span class="menu-text">Edições</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../textos.html">
+<span class="menu-text">Textos</span></a>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/labhdufba" target="_blank"> <i class="bi bi-github" role="img">
+</i>
+<span class="menu-text"></span></a>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/labhdufba" target="_blank"> <i class="bi bi-twitter" role="img">
+</i>
+<span class="menu-text"></span></a>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://instagram.com/labhdufba" target="_blank"> <i class="bi bi-instagram" role="img">
+</i>
+<span class="menu-text"></span></a>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dos recortes ao RAG: uma construção de acervo com referência algorítmica</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Arquivos</div>
+    <div class="quarto-category">Humanidades Digitais</div>
+    <div class="quarto-category">Inteligência Artificial</div>
+    <div class="quarto-category">RAG</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Como os Recortes de Jornais da Reitoria da UFBA se tornaram um acervo pesquisável, das fontes preservadas ao RAG.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ricardo Sodré Andrade </p>
+          </div>
+  </div>
+
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 de setembro de 2026</p>
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+</header>
+
+
+<div id="article-language-meta" hidden="" data-title-pt="Dos recortes ao RAG: uma construção de acervo com referência algorítmica" data-title-en="From Newspaper Clippings to RAG: Building a Searchable Archive" data-description-pt="Como os Recortes de Jornais da Reitoria da UFBA se tornaram um acervo pesquisável, das fontes preservadas ao RAG." data-description-en="How the UFBA Rector's Office Newspaper Clippings became a searchable collection, from preserved sources to RAG.">
+
+</div>
+<div class="article-language-switch" role="group" aria-label="Idioma do artigo">
+<p><span>Idioma:</span> <button type="button" class="article-lang-btn article-lang-active" data-article-lang="pt">PT</button> <button type="button" class="article-lang-btn" data-article-lang="en">EN</button></p>
+</div>
+<div class="article-version" data-article-version="pt">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="files/images/recortes-ufba.png" class="img-fluid figure-img"></p>
+<figcaption>Recortes de Jornais da Reitoria da UFBA</figcaption>
+</figure>
+</div>
+<section id="um-acervo-não-começa-no-chatbot-baseado-em-ia" class="level2">
+<h2 class="anchored" data-anchor-id="um-acervo-não-começa-no-chatbot-baseado-em-ia">Um acervo não começa no chatbot [baseado em IA]</h2>
+<p>Hoje é comum apresentar e reconhecer um sistema de inteligência artificial pela sua interface: uma caixa de pergunta, uma resposta e “um jeitão” que se repete nas diversas plataformas de IA. No caso dos Recortes de Jornais da Reitoria da UFBA, o trabalho começou muito antes disso, mas continuamos a experimentar para descobrir formas diferentes de fazer a mesma coisa: um chatbot de referência algorítmica, ou como seria mais fácil dizer, baseado em inteligência artificial.</p>
+<p>É por isso que a interface de chatbot não é o centro da proposta. Ela é uma forma simples de oferecer um sistema de referência automatizado: o leitor formula uma pergunta em linguagem corrente, o sistema localiza as unidades mais relevantes, organiza uma resposta provisória (pela própria natureza das respostas algorítimocas) e mostra de onde cada afirmação veio. Quando o acervo não sustenta uma resposta, o comportamento esperado é interromper a fluência e dizer que não há evidência suficiente. O chatbot pode ampliar o acesso ao acervo, mas não substitui a descrição, a curadoria ou a responsabilidade institucional.</p>
+<p>A coleção, chamada Recortes de Jornais da Reitoria da UFBA, reúne 12.583 registros, distribuídos por aproximadamente quatorze títulos e concentrados nas décadas de 1980 e 1990. Esse acervo foi criado e está custodiado pela Universidade Federal da Bahia (UFBA, Brasil), mais precisamente no Sistema de Bibliotecas, na Biblioteca Universitária Reitor Macedo Costa, no Lugares de Memória.</p>
+<p>Antes de qualquer RAG, houve o trabalho silencioso e, agora, quase tradicional, de digitalização. Isso ocorreu por volta de 2022 e 2023. Os recortes deixaram de existir apenas como peças físicas consultadas uma a uma e passaram a ser representados por imagens digitais, PDFs e texto obtido por OCR. Essa conversão ampliou o acesso, mas também criou novas tarefas: relacionar cada imagem ao seu registro, conferir datas e páginas, conservar o arquivo original e reconhecer que o OCR é uma representação, não o documento inteiro. Algumas situações impediram que 100% do acervo recebesse 100% do tratamento adequado, mas temos uma quase totalidade.</p>
+<p>Então, imagens, PDFs e texto obtido por OCR estavam começando a existir em paralelo ao advento das LLM comercialmente disponíveis, mas não haviam sido preparados para uma busca semântica. Foi preciso tratar os dados, testar hipóteses e rejeitar soluções que pareciam funcionar, mas não eram fiéis às práticas mais alinhadas com a teoria e a busca de bons procedimentos arquivísticos.</p>
+</section>
+<section id="fase-1-o-rag-ingênuo" class="level2">
+<h2 class="anchored" data-anchor-id="fase-1-o-rag-ingênuo">Fase 1: o RAG ingênuo</h2>
+<p>A primeira versão foi uma prova de conceito com busca exclusivamente vetorial. As notícias eram separadas em documentos individuais e representadas por um modelo treinado principalmente para inglês. As respostas podiam apontar para periódico, data, caderno, página e PDF, mas ainda não havia uma política explícita de proveniência nem uma regra confiável para admitir que uma informação não estava no acervo.</p>
+<p>Essa versão foi útil porque tornou visíveis os problemas. Um modelo pode responder com fluência mesmo quando a recuperação foi ruim. Uma busca vetorial pode perder uma ocorrência lexical importante. Uma data malformada pode impedir o relacionamento entre uma notícia e sua edição. E uma resposta aparentemente correta pode ter sido construída com conhecimento externo, sem base no recorte consultado.</p>
+</section>
+<section id="fase-2-limpar-sem-apagar" class="level2">
+<h2 class="anchored" data-anchor-id="fase-2-limpar-sem-apagar">Fase 2: limpar sem apagar</h2>
+<p>A etapa seguinte foi uma auditoria do corpus. O princípio foi simples: as fontes originais não seriam alteradas. O banco, os PDFs, as imagens e o OCR bruto permaneceram preservados. Toda correção ou melhoria foi gravada em artefatos derivados, com identificação e possibilidade de conferência.</p>
+<p>A auditoria confirmou 12.583 registros canônicos, 12.583 pares de imagem e PDF, nenhum arquivo ausente e nenhum ID duplicado. Também encontrou variações históricas nos nomes das chaves do JSON, como diferentes formas de escrever título, subtítulo e corpo da notícia. Em vez de apagar essas diferenças, a pipeline passou a reconhecê-las e a preservar as chaves originais.</p>
+<p>A primeira tentativa de estruturação automática foi permissiva demais. Em uma amostra de quarenta registros, o modelo corrigiu erros do OCR, completou palavras e, em alguns casos, produziu uma espécie de reconstrução editorial. O resultado foi rejeitado. Para um acervo histórico, uma transcrição imperfeita, mas rastreável, é preferível a uma versão mais bonita que introduz palavras inexistentes na fonte.</p>
+<p>Uma configuração mais estrita teve comportamento diferente. Com o texto bruto como referência, o modelo recebeu autorização para organizar, não para corrigir ou completar. Depois de uma revisão automática e outra assistida, a camada de estruturação foi consolidada em 942 registros de baixa cobertura. Três casos visualmente ambíguos permaneceram separados até que as imagens fossem examinadas.</p>
+<p>Todas essas dificuldades foram sendo encontradas em momentos diferentes das experimentações, mas cada uma encontrada e resolvida melhorava o corpo de representantes informacionais e objetos digitais.</p>
+</section>
+<section id="fase-3-transformar-texto-em-unidades-pesquisáveis" class="level2">
+<h2 class="anchored" data-anchor-id="fase-3-transformar-texto-em-unidades-pesquisáveis">Fase 3: transformar texto em unidades pesquisáveis</h2>
+<p>Com a estruturação aprovada, cada notícia passou a ser uma unidade de recuperação. O corpus consolidado ficou com 29.052 unidades. Essa decisão preservou uma relação direta entre o resultado da busca e a notícia que aparece no fólio, sem transformar uma página inteira em um bloco difícil de citar.</p>
+<p>Depois, cada unidade foi convertida em uma representação vetorial semântica usando um modelo multilíngue da família Qwen. Essas representações permitiram localizar conteúdos relacionados por sentido, mesmo quando a consulta não repetia literalmente as palavras do documento. Os dois índices permaneceram separados e, no estado consolidado do projeto, tanto o BM25 quanto o RAG v2 estavam concluídos.</p>
+<p>A busca híbrida combina as duas estratégias. O BM25 ajuda quando a consulta repete o vocabulário do documento; a busca vetorial, quando a pergunta usa uma paráfrase. No teste, a expressão “portaria da fome” recuperou material relacionado a ensino pago sem depender apenas da coincidência das palavras.</p>
+</section>
+<section id="fase-4-rag-com-proveniência-e-abstinência" class="level2">
+<h2 class="anchored" data-anchor-id="fase-4-rag-com-proveniência-e-abstinência">Fase 4: RAG com proveniência e abstinência</h2>
+<p>No protótipo avançado do RAG, o projeto usou o UVA Archival AI Protocol como referência, especialmente para a exigência de proveniência em nível de item.[1] A resposta não deveria apenas parecer informativa. Ela deveria indicar quais unidades documentais foram usadas e permitir que o leitor voltasse à notícia de origem.</p>
+<p>O RAG passou a registrar o uso, verificar campos de proveniência e testar níveis de acesso para diferentes usos de inteligência artificial. Essa camada de governança foi desenvolvida no protótipo avançado; a versão pública do RAG v2 manteve principalmente a busca híbrida, as citações e a abstinência (ou seja, ele não cria respostas na ausência de evidências documentais).</p>
+<p>Na avaliação final, o pipeline híbrido produziu 64 citações verificadas em 64 citações, sem referências inventadas. Também acertou as duas perguntas do protocolo que não tinham cobertura documental. A avaliação foi qualitativa, com dez perguntas fixas, e não deve ser confundida com um benchmark estatístico. Ainda assim, ela mostrou que a rastreabilidade pode ser testada concretamente.</p>
+</section>
+<section id="fase-5-sair-da-prova-de-conceito" class="level2">
+<h2 class="anchored" data-anchor-id="fase-5-sair-da-prova-de-conceito">Fase 5: sair da prova de conceito</h2>
+<p>A versão 2 reuniu corpus, índices, perguntas de avaliação e resultados em um conjunto autocontido. O RAG deixou de ser apenas uma aplicação de teste. A interface ganhou dois modos de consulta: resposta com IA e citações, ou uma lista de recortes para exame direto.</p>
+<p>Em 31 de agosto de 2026, a nova versão foi colocada em produção em recortes.farinha.info (https://recortes.farinha.info). A aplicação anterior foi preservada, mas desativada. A passagem para produção revelou problemas de datas, abstinência, limite de contexto e respostas vazias. Resolvidos, eles lembraram que a infraestrutura também participa da pesquisa: uma boa ideia só se torna útil quando funciona de modo estável.</p>
+</section>
+<section id="o-que-permanece-igual" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-permanece-igual">O que permanece igual</h2>
+<p>Embora as ferramentas tenham mudado, o princípio central permanece: preservar as fontes e produzir camadas derivadas. Cada transformação deve ser rastreável, cada resposta deve permitir o retorno ao documento de origem e o sistema deve admitir quando não encontrou evidência. A velocidade ajuda, mas não substitui a validação.</p>
+<p>O resultado não é apenas um chatbot para fazer perguntas a um fundo arquivístico ou coleção. É uma sequência de decisões sobre descrição, preservação, recuperação, proveniência e controle. O RAG aparece no fim da cadeia, mas a qualidade da resposta depende de tudo o que veio antes.</p>
+</section>
+<section id="nota-de-método" class="level2">
+<h2 class="anchored" data-anchor-id="nota-de-método">Nota de método</h2>
+<p>Este texto foi elaborado a partir dos relatórios operacionais, manifestos, registros de execução e artefatos de avaliação do projeto Recortes da UFBA.</p>
+<p>[1] Leo S. Lo, The University of Virginia Archival AI Protocol, versão 1.1, DOI 10.18130/5dqf-9w86 (https://doi.org/10.18130/5dqf-9w86).</p>
+<p>Obs: Esse texto foi preparado com ajuda do Hermes Agent, usando os modelos gpt-5.6-luna e gpt-5.6-sol.</p>
+</section>
+</div>
+<div class="article-version" data-article-version="en">
+<section id="an-archive-does-not-begin-with-a-chatbot" class="level2">
+<h2 class="anchored" data-anchor-id="an-archive-does-not-begin-with-a-chatbot">An archive does not begin with a chatbot</h2>
+<p>It is common to present an artificial intelligence system through its interface: a question box, an answer, and a few citations. The UFBA Rector’s Office Newspaper Clippings project began much earlier. That is why the chatbot interface is not the center of the proposal. It is a simple way to offer an automated reference system: the reader asks a question in ordinary language, the system locates the most relevant units, organizes a provisional answer, and shows where each claim came from. When the collection does not support an answer, the expected behavior is to interrupt fluency and say that there is insufficient evidence. A chatbot can broaden access to a collection, but it does not replace description, curation, or institutional responsibility.</p>
+<p>The collection, officially called <strong>Recortes de Jornais da Reitoria da UFBA</strong>, contains 12,583 records, distributed across approximately fourteen titles and concentrated in the 1980s and 1990s. In Farinha’s archival arrangement, it belongs under UFBA &gt; Library System &gt; Reitor Macedo Costa University Library &gt; Places of Memory. It was separated from the Carlos Ott Card Index and other holdings, an important distinction: these are clippings, not manuscripts.</p>
+<p>Before any RAG, there was the quiet work of digitization. The clippings were no longer only physical pieces consulted one by one. They became digital images, PDFs, and OCR text. This conversion broadened access, but it also created new tasks: linking each image to its record, checking dates and pages, preserving the original file, and recognizing that OCR is a representation, not the entire document. The data had to be audited, hypotheses tested, and solutions rejected when they looked useful but were not faithful to the sources.</p>
+</section>
+<section id="phase-1-the-naive-rag" class="level2">
+<h2 class="anchored" data-anchor-id="phase-1-the-naive-rag">Phase 1: the naive RAG</h2>
+<p>The first version was a proof of concept using vector-only retrieval. Articles were separated into individual documents and represented with a model trained mainly for English. Answers could point to newspaper, date, section, page, and PDF, but there was no explicit provenance policy or reliable rule for admitting that the collection did not contain an answer.</p>
+<p>That version was useful because it exposed the problems. A model can answer fluently even when retrieval was poor. Vector search can miss an important lexical occurrence. A malformed date can prevent a story from being related to its issue. And an apparently correct answer may have been built from outside knowledge rather than from the clipping being queried.</p>
+</section>
+<section id="phase-2-cleaning-without-erasing" class="level2">
+<h2 class="anchored" data-anchor-id="phase-2-cleaning-without-erasing">Phase 2: cleaning without erasing</h2>
+<p>The next step was a corpus audit. The principle was simple: original sources would not be changed. The database, PDFs, images, and raw OCR remained preserved. Every correction or improvement was written to a derived artifact, with identification and a way to check it.</p>
+<p>The audit confirmed 12,583 canonical records, 12,583 image and PDF pairs, no missing files, and no duplicate IDs. It also found historical variations in JSON key names, including different forms for title, subtitle, and article body. Rather than deleting those differences, the pipeline learned to recognize them while preserving the original keys.</p>
+<p>The first automatic structuring attempt was too permissive. In a sample of forty records, the model corrected OCR errors, completed words, and in some cases produced a kind of editorial reconstruction. The result was rejected. For a historical collection, an imperfect but traceable transcription is preferable to a polished version that introduces words absent from the source.</p>
+<p>A stricter configuration behaved differently. With the raw text as its reference, the model was allowed to organize, not to correct or complete. After automatic and assisted review, the low-coverage structuring layer was consolidated in 942 records. Three visually ambiguous cases remained separate until the images could be examined.</p>
+</section>
+<section id="phase-3-turning-text-into-searchable-units" class="level2">
+<h2 class="anchored" data-anchor-id="phase-3-turning-text-into-searchable-units">Phase 3: turning text into searchable units</h2>
+<p>Once structuring was approved, each article became a retrieval unit. As consolidated on September 1, 2026, the corpus contained 29,052 units. This decision preserved a direct relationship between a search result and the story on the folio, rather than turning an entire page into a difficult-to-cite block.</p>
+<p>A BM25 index was built first, which is well suited to locating words and expressions that occur literally in the OCR. Multilingual representations were then generated for search by meaning. The two indexes remained separate and, in the project’s consolidated state, both BM25 and RAG v2 were complete.</p>
+<p>Hybrid retrieval combines both strategies. BM25 helps when a query repeats the document’s vocabulary; vector search helps when the question uses a paraphrase. In testing, the expression “portaria da fome” retrieved material related to paid education without relying only on exact word matches.</p>
+</section>
+<section id="phase-4-rag-with-provenance-and-abstention" class="level2">
+<h2 class="anchored" data-anchor-id="phase-4-rag-with-provenance-and-abstention">Phase 4: RAG with provenance and abstention</h2>
+<p>In the advanced RAG prototype, the project used the UVA Archival AI Protocol as a reference, especially its requirement for item-level provenance.[1] The answer should not merely sound informative. It should indicate which documentary units were used and allow the reader to return to the source story.</p>
+<p>The RAG began to log usage, verify provenance fields, and test access levels for different forms of artificial intelligence use. This governance layer was developed in the advanced prototype; the public RAG v2 mainly retained hybrid retrieval, citations, and documented abstention.</p>
+<p>In the final evaluation, the hybrid pipeline produced 64 verified citations out of 64, with no invented references. It also correctly handled the two protocol questions that had no documentary coverage. The evaluation was qualitative, using ten fixed questions, and should not be mistaken for a statistical benchmark. It nevertheless showed that traceability can be tested concretely.</p>
+</section>
+<section id="phase-5-leaving-the-proof-of-concept" class="level2">
+<h2 class="anchored" data-anchor-id="phase-5-leaving-the-proof-of-concept">Phase 5: leaving the proof of concept</h2>
+<p>Version 2 brought the corpus, indexes, evaluation questions, and results into a self-contained set. The RAG was no longer only a test application. The interface gained two query modes: an AI answer with citations, or a list of clippings for direct inspection.</p>
+<p>On August 31, 2026, the new version went into production at <a href="https://recortes.farinha.info">recortes.farinha.info</a>. The previous application was preserved but deactivated. Moving into production exposed problems with dates, abstention, context limits, and empty responses. Resolving them was a reminder that infrastructure is also part of the research: a good idea only becomes useful when it works reliably.</p>
+</section>
+<section id="what-remains-constant" class="level2">
+<h2 class="anchored" data-anchor-id="what-remains-constant">What remains constant</h2>
+<p>Although the tools changed, the central principle remains: preserve the sources and produce derived layers. Every transformation must be traceable, every answer must lead back to the source document, and the system must admit when it found no evidence. Speed helps, but it does not replace validation.</p>
+<p>The result is not simply a chatbot for asking questions about an archive. It is a sequence of decisions about description, preservation, retrieval, provenance, and control. RAG appears at the end of the chain, but answer quality depends on everything that came before it.</p>
+</section>
+<section id="method-note" class="level2">
+<h2 class="anchored" data-anchor-id="method-note">Method note</h2>
+<p>This text was prepared from operational reports, manifests, execution logs, and evaluation artifacts for the UFBA Clippings project.</p>
+<p>This text was prepared with help from Hermes Agent, using the gpt-5.6-luna and gpt-5.6-sol models.</p>
+<p>The reference used for the UVA Archival AI Protocol is Leo S. Lo, <em>The University of Virginia Archival AI Protocol</em>, version 1.1, DOI <a href="https://doi.org/10.18130/5dqf-9w86">10.18130/5dqf-9w86</a>.</p>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/enhanced\.inovahd\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config);
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined;
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              }
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            }
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+Enhanced ©
+<script>document.write(new Date().getFullYear())</script>
+<p>· LABHDUFBA</p>
+</div>
+    <div class="nav-footer-center">
+<p><a href="https://labhd.ufba.br"><img src="https://enhanced.inovahd.org/files/images/labhd-logo.webp" alt="LABHDUFBA" style="height:2.25rem; vertical-align:middle; opacity:0.78;"></a></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/labhdufba" target="_blank">
+      <i class="bi bi-github" role="img">
+</i>
+    </a>
+  </li>
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
