@@ -26,6 +26,8 @@ lang: pt-BR
 
 ::: {.article-version data-article-version="pt"}
 
+Este texto retoma e atualiza a apresentação publicada anteriormente sobre a coleção, concentrando-se na evolução técnica do projeto e na construção do RAG com proveniência. Para evitar repetir aquele primeiro contexto, aqui a descrição institucional é mantida apenas como ponto de partida.
+
 ![Recortes de Jornais da Reitoria da UFBA](files/images/recortes-ufba.png)
 
 ## Um acervo não começa no chatbot [baseado em IA]
@@ -34,9 +36,11 @@ Hoje é comum apresentar e reconhecer um sistema de inteligência artificial pel
 
 É por isso que a interface de chatbot não é o centro da proposta. Ela é uma forma simples de oferecer um sistema de referência automatizado: o leitor formula uma pergunta em linguagem corrente, o sistema localiza as unidades mais relevantes, organiza uma resposta provisória (pela própria natureza das respostas algorítimocas) e mostra de onde cada afirmação veio. Quando o acervo não sustenta uma resposta, o comportamento esperado é interromper a fluência e dizer que não há evidência suficiente. O chatbot pode ampliar o acesso ao acervo, mas não substitui a descrição, a curadoria ou a responsabilidade institucional.
 
-A coleção, chamada Recortes de Jornais da Reitoria da UFBA, reúne 12.583 registros, distribuídos por aproximadamente quatorze títulos e concentrados nas décadas de 1980 e 1990. Esse acervo foi criado e está custodiado pela Universidade Federal da Bahia (UFBA, Brasil), mais precisamente no Sistema de Bibliotecas, na Biblioteca Universitária Reitor Macedo Costa, no Lugares de Memória.
+A coleção, chamada Recortes de Jornais da Reitoria da UFBA, foi apresentada na fase anterior — quando ainda se trabalhava com o RAG de demonstração — como composta por 12.752 fólios e quase 30.000 recortes. Na versão atual, depois da auditoria e da consolidação do corpus, o acervo operacional passou a ser descrito por 12.583 registros canônicos e 29.052 unidades de recuperação. Esses números não são diretamente equivalentes: fólios e recortes descrevem a organização física e documental; registros e unidades descrevem as camadas digitais utilizadas pelo RAG.
 
-Antes de qualquer RAG, houve o trabalho silencioso e, agora, quase tradicional, de digitalização. Isso ocorreu por volta de 2022 e 2023. Os recortes deixaram de existir apenas como peças físicas consultadas uma a uma e passaram a ser representados por imagens digitais, PDFs e texto obtido por OCR. Essa conversão ampliou o acesso, mas também criou novas tarefas: relacionar cada imagem ao seu registro, conferir datas e páginas, conservar o arquivo original e reconhecer que o OCR é uma representação, não o documento inteiro. Algumas situações impediram que 100% do acervo recebesse 100% do tratamento adequado, mas temos uma quase totalidade.
+Como o texto anterior já apresenta sua custódia e sua formação, importa retomar aqui apenas que, entre 2022 e 2023, os recortes foram digitalizados e passaram a ser representados por imagens, PDFs e texto obtido por OCR.
+
+Essa conversão ampliou o acesso, mas também criou novas tarefas: relacionar cada imagem ao seu registro, conferir datas e páginas, conservar o arquivo original e reconhecer que o OCR é uma representação, não o documento inteiro. Algumas situações impediram que 100% do acervo recebesse 100% do tratamento adequado, mas temos uma quase totalidade.
 
 Então, imagens, PDFs e texto obtido por OCR estavam começando a existir em paralelo ao advento das LLM comercialmente disponíveis, mas não haviam sido preparados para uma busca semântica. Foi preciso tratar os dados, testar hipóteses e rejeitar soluções que pareciam funcionar, mas não eram fiéis às práticas mais alinhadas com a teoria e a busca de bons procedimentos arquivísticos.
 
@@ -97,13 +101,17 @@ Obs: Esse texto foi preparado com ajuda do Hermes Agent, usando os modelos gpt-5
 
 ::: {.article-version data-article-version="en"}
 
+This text revisits and updates the earlier presentation of the collection, focusing on the project's technical development and on building the RAG with provenance. To avoid repeating that initial context, the institutional description is kept here only as a starting point.
+
+![UFBA Rector's Office Newspaper Clippings](files/images/recortes-ufba.png)
+
 ## An archive does not begin with a chatbot
 
 It is common to present an artificial intelligence system through its interface: a question box, an answer, and a few citations. The UFBA Rector's Office Newspaper Clippings project began much earlier. That is why the chatbot interface is not the center of the proposal. It is a simple way to offer an automated reference system: the reader asks a question in ordinary language, the system locates the most relevant units, organizes a provisional answer, and shows where each claim came from. When the collection does not support an answer, the expected behavior is to interrupt fluency and say that there is insufficient evidence. A chatbot can broaden access to a collection, but it does not replace description, curation, or institutional responsibility.
 
-The collection, officially called **Recortes de Jornais da Reitoria da UFBA**, contains 12,583 records, distributed across approximately fourteen titles and concentrated in the 1980s and 1990s. In Farinha's archival arrangement, it belongs under UFBA > Library System > Reitor Macedo Costa University Library > Places of Memory. It was separated from the Carlos Ott Card Index and other holdings, an important distinction: these are clippings, not manuscripts.
+The collection, officially called **Recortes de Jornais da Reitoria da UFBA**, was described in the earlier phase—when the project still used the demonstration RAG—as containing 12,752 folios and nearly 30,000 clippings. In the current version, after corpus auditing and consolidation, the operational collection is described through 12,583 canonical records and 29,052 retrieval units. These figures are not directly equivalent: folios and clippings describe the physical and documentary organization; records and units describe the digital layers used by the RAG.
 
-Before any RAG, there was the quiet work of digitization. The clippings were no longer only physical pieces consulted one by one. They became digital images, PDFs, and OCR text. This conversion broadened access, but it also created new tasks: linking each image to its record, checking dates and pages, preserving the original file, and recognizing that OCR is a representation, not the entire document. The data had to be audited, hypotheses tested, and solutions rejected when they looked useful but were not faithful to the sources.
+As the previous text already presents the collection’s custody and formation, it is enough to recall here that, between 2022 and 2023, the clippings were digitized and represented as images, PDFs, and OCR text.
 
 ## Phase 1: the naive RAG
 
