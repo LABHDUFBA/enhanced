@@ -26,6 +26,8 @@ lang: pt-BR
 
 ::: {.article-version data-article-version="pt"}
 
+![Recortes de Jornais da Reitoria da UFBA](files/images/recortes-ufba-card.jpg)
+
 Este é o primeiro texto publicado na Enhanced, novo blog da associação InovaHD, uma iniciativa gestada no âmbito do LABHDUFBA e que inicia suas atividades, tal como este blog.
 
 Aproveito a oportunidade para escrever sobre um projeto que vem se desenvolvendo desde 2022. Como atividade apoiada pelo programa Permanecer, da Universidade Federal da Bahia (UFBA), o projeto recebeu bolsas para estudantes de graduação e viabilizou a digitalização da coleção Recortes de Jornais da Reitoria da UFBA.
@@ -63,6 +65,8 @@ Com auxílio de um agente, esse resultado levou algo entre 20 e 30 minutos — o
 :::
 
 ::: {.article-version data-article-version="en"}
+
+![UFBA Rector's Office Newspaper Clippings](files/images/recortes-ufba-card.jpg)
 
 This is the first text published on Enhanced, the new blog of the InovaHD association. The initiative was developed within LABHDUFBA and is beginning its activities alongside this blog.
 
