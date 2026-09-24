@@ -110,76 +110,76 @@ Para a pesquisa que desenvolvemos no LABHDUFBA, esse é um caminho sem volta.
 
 One of the first digital tools I learned to use in social science research was a reference manager.
 
-Its function seems simple: organizing references in a database. Each record contains information such as authorship, title, publication date, and edition, while also identifying the type of document, whether a book, article, chapter, video, thesis, or report. These data make it possible to insert citations into a text and automatically generate a bibliography in the required style.
+Its purpose seems simple: to organize references in a database. Each record brings together information such as author names, title, publication date, and edition, and identifies the document type: book, article, chapter, video, thesis, or report. This information makes it possible to insert citations into documents and automatically generate bibliographies in the desired style.
 
-Over time, however, a reference manager becomes something more important: an organized memory of the research process.
+Over time, however, a reference manager becomes something more important: a way to organize and preserve the memory of our research.
 
 ## From EndNote to Zotero
 
-I first encountered this kind of tool at the beginning of my doctorate. At the time, my supervisor paid for an EndNote subscription and shared it with me. I began using it to insert references into the digital documents I was writing.
+I did not discover these tools until I began my doctorate. At the time, my supervisor paid for an EndNote subscription and shared it with me. I began using it to insert references into the digital documents I was drafting.
 
-Near the end of my doctorate, I discovered [Zotero](https://www.zotero.org/), a free and open-source tool for managing references individually or collaboratively.
+Toward the end of my doctorate, I discovered [Zotero](https://www.zotero.org/), free and open-source software for managing references individually or collaboratively.
 
-For me, that change was revolutionary. Zotero made it possible to build shared libraries, collectively organize a field of study, and keep accessible the body of texts with which a research project is in dialogue.
+For me, that change was revolutionary. Zotero made it possible to build shared libraries, work together to organize the literature in a field, and keep the body of texts that a research project engages with readily accessible.
 
-## Citation means joining a conversation
+## Citing means taking part in a conversation
 
-Zotero's importance is tied to the epistemological meaning of citation.
+Zotero's importance is tied to the epistemological role of citation.
 
-Science is a vast conversation. We engage with intellectual work from the past and with research being produced in the present. We agree with certain interpretations, reject others, revisit old problems, and formulate new questions.
+Scholarly research is a vast conversation. We engage with intellectual work from the past and with research being produced in the present. We agree with some interpretations, refute others, revisit old problems, and pose new questions.
 
-To cite is to place a claim within that conversation. A reference identifies our interlocutors, acknowledges intellectual debts, and enables others to reconstruct the path followed by an argument. Debate, agreement, and refutation are part of the substance of citation.
+To cite is to situate a claim within that conversation. References identify those whose work we engage with, acknowledge our intellectual debts, and allow others to trace the development of an argument. Debate, agreement, and refutation are fundamental to citation.
 
-A bibliographic library is therefore more than an auxiliary archive. It gives material form to part of a research project's theoretical and methodological orientation.
+A reference library is therefore more than a supporting archive. It embodies part of a research project's theoretical and methodological orientation.
 
 ## A shared library at LABHDUFBA
 
-Since then, Zotero has become practically mandatory in the research I conduct and in the activities of the Digital Humanities Laboratory at the Federal University of Bahia, LABHDUFBA.
+Since then, Zotero has become all but mandatory in my own research and in the work of the Digital Humanities Laboratory at the Federal University of Bahia, LABHDUFBA.
 
-Researchers at different stages, from undergraduate research to the doctoral level, use the tool. I usually summarize this rule quite directly:
+The tool is used by researchers at different stages of their training, from undergraduates to doctoral students. I usually state this rule quite directly:
 
-> I do not read a text that is not in Zotero.
+> I don't read a text unless it's in Zotero.
 
-The statement may sound exaggerated, but it expresses an important practice. When a text enters Zotero, it stops being an isolated file on someone's computer. It becomes part of a shared, searchable, and organized collection. It can receive tags, notes, attachments, and links to other documents.
+That may sound like an exaggeration, but it reflects an important practice. Once a text is added to Zotero, it is no longer just an isolated file on someone's computer. It becomes part of a shared, searchable, organized collection. We can add tags, notes, and attachments, and link it to other documents.
 
-We now maintain a substantial collaborative library on digital humanities and related areas, including digital history, digital sociology, and computational social science. This collection supports part of our theoretical and methodological orientation while preserving the intellectual memory of the research developed in the laboratory.
+We now maintain a substantial shared library covering the digital humanities and related fields, such as digital history, digital sociology, and computational social science. This collection underpins aspects of our theoretical and methodological approach and preserves the intellectual memory of the research conducted in the laboratory.
 
-## Data burial
+## Data overload
 
-Contemporary academic production faces an increasingly visible problem: the volume of published material exceeds our individual capacity to follow, organize, and read everything that may be relevant.
+Academic research today faces an increasingly clear problem: the volume of published material exceeds our individual capacity to keep track of, organize, and read everything that might be relevant.
 
-I have been calling this problem **data burial**.
+I refer to this problem as **data overload**.
 
-Articles, books, reports, preprints, and other documents are being produced continuously. Finding a relevant text is already difficult. Remembering that it exists, recording why it matters, and retrieving it at the right moment is harder still.
+Articles, books, reports, preprints, and other documents are continually being produced in large numbers. Finding a relevant text is difficult enough. It is harder still to remember that it exists, record why it matters, and retrieve it when needed.
 
-The problem is not simply access to information. We need conditions for selecting, organizing, relating, and retrieving materials amid a continuous flow of publications.
+The problem is not simply access to information. We also need ways to select, organize, make connections between, and retrieve materials amid a continuous stream of publications.
 
-Zotero already offered a partial response to this problem. A considerable amount of manual work nevertheless remained: reviewing metadata, creating collections, applying tags, finding duplicates, preparing reading notes, and reorganizing libraries accumulated over many years.
+Zotero already offered a partial solution to this problem. Much of the work still had to be done manually, however: reviewing metadata, creating collections, adding tags, identifying duplicates, preparing structured reading notes, and reorganizing libraries built up over the years.
 
-## Integrating artificial intelligence agents
+## Integrating Zotero with AI agents
 
 Over the past two months, thanks to the work of [Lídia Belas](https://labhdufba.github.io/authors/28_lidia), an undergraduate research fellow at the laboratory, we have integrated Zotero with our artificial intelligence agents.
 
-This integration has produced what I consider a second Zotero revolution.
+This integration has brought about what I regard as Zotero's second revolution.
 
-The first change concerns library organization. Agents assist with reviewing collections, applying tags, and correcting incomplete or inaccurate reference data. Tasks that previously had to be performed manually, one item at a time, can now be carried out at scale.
+The first change concerns library organization. Agents help review collections, add tags, fill gaps in bibliographic information, and correct inaccuracies. Tasks that previously had to be performed manually, one item at a time, can now be carried out at scale.
 
-The second change concerns the incorporation of new publications. Articles identified as relevant can be collected, added to Zotero, and accompanied by an initial reading note. When we return to this material, we find an organized reference with information that facilitates retrieval and contextualization.
+The second change concerns the addition of new publications. Articles identified as relevant can be collected, added to Zotero, and accompanied by an initial set of structured reading notes. When we return to this material, we find an organized bibliographic record, with information that helps us retrieve the material and place it in context.
 
-The notes produced by agents do not conclude the intellectual work. They prepare the material for human reading, verification, and interpretation. Researchers remain responsible for evaluating arguments, confronting evidence, identifying limitations, and adding the insights that emerge during reading.
+Agent-generated reading notes are not the end of the intellectual work. They prepare the material for human reading, verification, and interpretation. Researchers remain responsible for evaluating arguments, weighing evidence, identifying limitations, and adding the insights that emerge as they read.
 
-Artificial intelligence expands our capacity for organization and retrieval. The construction of meaning remains a human task.
+Artificial intelligence expands our ability to organize and retrieve material. Making sense of it remains a human task.
 
 ## A research infrastructure
 
-I will not discuss the technical details of the integration between Zotero and AI agents here. What matters for now is the change in scale and in our way of working.
+I will not go into detail here about the technical aspects of integrating Zotero with AI agents. What matters for now is the change in scale and in how we work.
 
-For me, Zotero began as a tool for inserting citations into documents. It later became the organizing space for a shared library. Now, integrated with artificial intelligence agents, it operates as an active research infrastructure: receiving, organizing, and helping us retrieve a continuously expanding collection.
+For me, Zotero began as a tool for inserting citations into documents. It later became a place to organize a shared library. Now, integrated with artificial intelligence agents, it serves as an active research infrastructure: taking in new material, organizing it, and helping us retrieve items from an ever-growing collection.
 
 This is what I call Zotero's second revolution.
 
 For the research we conduct at LABHDUFBA, there is no turning back.
 
-*Note: this article was developed from an oral account by Leonardo F. Nascimento, with Hermes Agent assisting in transcription, editing, and translation into English.*
+*Note: this article is based on spoken remarks by Leonardo F. Nascimento, with assistance from Hermes Agent in transcription, editing, and translation into English.*
 
 :::
